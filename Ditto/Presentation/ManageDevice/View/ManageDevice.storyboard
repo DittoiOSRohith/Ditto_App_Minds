@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNextLTPro-Demi.ttf">
+            <string>AvenirNextLTPro-Demi</string>
+        </array>
+        <array key="AvenirNextLTPro-Regular.ttf">
+            <string>AvenirNextLTPro-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Manage Projector View Controller-->
+        <scene sceneID="Un0-ok-Qef">
+            <objects>
+                <viewController storyboardIdentifier="ManageProjectorViewController" id="ZNk-n7-Ddf" customClass="ManageProjectorViewController" customModule="DittoDev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yZU-wS-4sK">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i3V-eQ-s5y">
+                                <rect key="frame" x="42" y="49" width="1282" height="240.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available projectors in the Wi-Fi network" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJH-dO-iWK">
+                                        <rect key="frame" x="8" y="35" width="414.5" height="22"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="14"/>
+                                        <color key="textColor" name="needleGrey"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="22"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 projectors found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iC1-B5-ck0">
+                                        <rect key="frame" x="8" y="67" width="185.5" height="22"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextLTPro-Regular" family="Avenir Next LT Pro" pointSize="14"/>
+                                        <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="AvenirNextLTPro-Regular" family="Avenir Next LT Pro" pointSize="22"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rbs-CK-qC4">
+                                        <rect key="frame" x="5" y="240" width="1272" height="0.5"/>
+                                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="0.5" id="bTB-qR-pcX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="needleGrey"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VkR-Ln-jy0">
+                                        <rect key="frame" x="509.5" y="99" width="263" height="67"/>
+                                        <color key="backgroundColor" name="safetyPinYellow"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="UfN-dP-i1g">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="67"/>
+                                            </constraint>
+                                            <constraint firstAttribute="width" constant="167" id="j1m-9w-Ygo">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="263"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="14"/>
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="-2" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="   Search for projectors">
+                                            <color key="titleColor" name="needleGrey"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="21"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="scanForDevicesAction:" destination="ZNk-n7-Ddf" eventType="touchUpInside" id="kKb-UO-uLw"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bluetooth_white" translatesAutoresizingMaskIntoConstraints="NO" id="KSz-EI-Xsn">
+                                        <rect key="frame" x="519.5" y="119" width="23.5" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="KSz-EI-Xsn" secondAttribute="height" multiplier="13:14" id="vBs-sJ-Wir"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Rbs-CK-qC4" secondAttribute="trailing" constant="5" id="1aM-4T-HWx"/>
+                                    <constraint firstItem="VkR-Ln-jy0" firstAttribute="centerX" secondItem="i3V-eQ-s5y" secondAttribute="centerX" id="Bom-xC-Bys"/>
+                                    <constraint firstItem="VkR-Ln-jy0" firstAttribute="top" secondItem="iC1-B5-ck0" secondAttribute="bottom" constant="10" id="CL5-CD-XhK"/>
+                                    <constraint firstAttribute="bottom" secondItem="Rbs-CK-qC4" secondAttribute="bottom" id="GYJ-ev-erv"/>
+                                    <constraint firstItem="KSz-EI-Xsn" firstAttribute="leading" secondItem="VkR-Ln-jy0" secondAttribute="leading" constant="5" id="M4W-A4-m5C">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                                    </constraint>
+                                    <constraint firstItem="GJH-dO-iWK" firstAttribute="leading" secondItem="i3V-eQ-s5y" secondAttribute="leading" constant="8" id="MSO-5g-lgI"/>
+                                    <constraint firstItem="Rbs-CK-qC4" firstAttribute="leading" secondItem="i3V-eQ-s5y" secondAttribute="leading" constant="5" id="P1d-hD-h8D"/>
+                                    <constraint firstItem="GJH-dO-iWK" firstAttribute="top" secondItem="i3V-eQ-s5y" secondAttribute="top" constant="15" id="Thp-nS-rJG">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="35"/>
+                                    </constraint>
+                                    <constraint firstItem="iC1-B5-ck0" firstAttribute="leading" secondItem="GJH-dO-iWK" secondAttribute="leading" id="WWE-fB-O5D"/>
+                                    <constraint firstItem="KSz-EI-Xsn" firstAttribute="width" secondItem="VkR-Ln-jy0" secondAttribute="width" multiplier="0.09" id="e4p-0X-lRL"/>
+                                    <constraint firstItem="KSz-EI-Xsn" firstAttribute="centerY" secondItem="VkR-Ln-jy0" secondAttribute="centerY" constant="-1" id="u9R-bA-oP1"/>
+                                    <constraint firstItem="iC1-B5-ck0" firstAttribute="top" secondItem="GJH-dO-iWK" secondAttribute="bottom" constant="10" id="vyk-mm-oTu"/>
+                                </constraints>
+                            </view>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Projectors Found!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54K-sW-j0M">
+                                <rect key="frame" x="600" y="339.5" width="166.5" height="17"/>
+                                <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="17"/>
+                                <color key="textColor" name="needleGrey"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xfZ-vD-6IK">
+                                <rect key="frame" x="42" y="309.5" width="1282" height="714.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="manageCell" rowHeight="65" id="1mk-aw-ZwP" customClass="ProjectorsListTableViewCell" customModule="DittoDev" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="1282" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1mk-aw-ZwP" id="5vB-lo-IV1">
+                                            <rect key="frame" x="0.0" y="0.0" width="1282" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yTD-Sn-2go">
+                                                    <rect key="frame" x="20" y="4.5" width="35" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="25" id="IX6-1q-tT5">
+                                                            <variation key="heightClass=regular-widthClass=regular" constant="35"/>
+                                                        </constraint>
+                                                        <constraint firstAttribute="height" constant="15" id="J2x-0X-kEN">
+                                                            <variation key="heightClass=regular-widthClass=regular" constant="25"/>
+                                                        </constraint>
+                                                    </constraints>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvw-cx-GF8">
+                                                    <rect key="frame" x="975" y="-1" width="224" height="67"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="167" id="Jmg-1o-Hf6">
+                                                            <variation key="heightClass=regular-widthClass=regular" constant="224"/>
+                                                        </constraint>
+                                                        <constraint firstAttribute="height" constant="40" id="nNa-Ok-SMe">
+                                                            <variation key="heightClass=regular-widthClass=regular" constant="67"/>
+                                                        </constraint>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="14"/>
+                                                    <state key="normal">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                            <integer key="value" value="3"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="19"/>
+                                                    </variation>
+                                                    <connections>
+                                                        <action selector="selectedConnection:" destination="1mk-aw-ZwP" eventType="touchUpInside" id="Q9h-F4-1Rz"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xam-7v-cNi">
+                                                    <rect key="frame" x="1244" y="21.5" width="22" height="22"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="22" id="fcn-aw-Wva"/>
+                                                        <constraint firstAttribute="height" constant="22" id="m2M-mN-a9z"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="14"/>
+                                                    <state key="normal" image="info">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                            <integer key="value" value="3"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <variation key="heightClass=regular-widthClass=regular"/>
+                                                    <connections>
+                                                        <action selector="infoSelected:" destination="1mk-aw-ZwP" eventType="touchUpInside" id="1gN-F7-Zlh"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gb1-8Y-fAk">
+                                                    <rect key="frame" x="1209" y="21.5" width="22" height="22"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="22" id="aaW-Fh-kEh"/>
+                                                        <constraint firstAttribute="height" constant="22" id="dvb-XG-QJc"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="14"/>
+                                                    <state key="normal" image="update">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                            <integer key="value" value="3"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <variation key="heightClass=regular-widthClass=regular"/>
+                                                    <connections>
+                                                        <action selector="updateBtnTapped:" destination="1mk-aw-ZwP" eventType="touchUpInside" id="N9x-5f-Fu7"/>
+                                                    </connections>
+                                                </button>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Ame-gZ-Zhg">
+                                                    <rect key="frame" x="69" y="4.5" width="907" height="56"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXp-Di-EtO">
+                                                            <rect key="frame" x="0.0" y="0.0" width="907" height="0.0"/>
+                                                            <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="14"/>
+                                                            <color key="textColor" name="needleGrey"/>
+                                                            <nil key="highlightedColor"/>
+                                                            <variation key="heightClass=regular-widthClass=regular">
+                                                                <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="19"/>
+                                                            </variation>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YgJ-cX-4gU">
+                                                            <rect key="frame" x="0.0" y="6" width="907" height="50"/>
+                                                            <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="14"/>
+                                                            <color key="textColor" red="0.019607843137254902" green="0.24313725490196078" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                            <variation key="heightClass=regular-widthClass=regular">
+                                                                <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="19"/>
+                                                            </variation>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Xam-7v-cNi" secondAttribute="trailing" id="8M1-iT-thb"/>
+                                                <constraint firstItem="Xam-7v-cNi" firstAttribute="leading" secondItem="gb1-8Y-fAk" secondAttribute="trailing" constant="13" id="D3M-t5-Irx"/>
+                                                <constraint firstItem="nvw-cx-GF8" firstAttribute="centerY" secondItem="Ame-gZ-Zhg" secondAttribute="centerY" id="MgF-FK-7lB"/>
+                                                <constraint firstItem="gb1-8Y-fAk" firstAttribute="leading" secondItem="nvw-cx-GF8" secondAttribute="trailing" constant="10" id="Ubg-xu-E65"/>
+                                                <constraint firstItem="Xam-7v-cNi" firstAttribute="centerY" secondItem="5vB-lo-IV1" secondAttribute="centerY" id="WCm-pB-vxH"/>
+                                                <constraint firstItem="nvw-cx-GF8" firstAttribute="leading" secondItem="yXp-Di-EtO" secondAttribute="trailing" constant="10" id="WpH-Df-cWY">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="-1"/>
+                                                </constraint>
+                                                <constraint firstItem="Ame-gZ-Zhg" firstAttribute="leading" secondItem="yTD-Sn-2go" secondAttribute="trailing" constant="14" id="cAd-M5-UOj"/>
+                                                <constraint firstItem="gb1-8Y-fAk" firstAttribute="centerY" secondItem="Xam-7v-cNi" secondAttribute="centerY" id="dKh-fv-xNs"/>
+                                                <constraint firstItem="yTD-Sn-2go" firstAttribute="leading" secondItem="5vB-lo-IV1" secondAttribute="leading" constant="20" id="dXr-se-JiH"/>
+                                                <constraint firstItem="Ame-gZ-Zhg" firstAttribute="top" secondItem="yTD-Sn-2go" secondAttribute="top" id="iNe-JK-oPc"/>
+                                                <constraint firstItem="nvw-cx-GF8" firstAttribute="centerY" secondItem="5vB-lo-IV1" secondAttribute="centerY" id="kIn-jL-3wM"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isRounded" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="InfoBtn" destination="Xam-7v-cNi" id="zI4-WG-8Hq"/>
+                                            <outlet property="connectBtn" destination="nvw-cx-GF8" id="iwQ-nW-I9k"/>
+                                            <outlet property="connectedLbl" destination="YgJ-cX-4gU" id="ggU-iz-Vpc"/>
+                                            <outlet property="projImg" destination="yTD-Sn-2go" id="6bw-YM-tnd"/>
+                                            <outlet property="projNameLbl" destination="yXp-Di-EtO" id="rIx-RK-lGk"/>
+                                            <outlet property="updateBtn" destination="gb1-8Y-fAk" id="hWw-gI-tFM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ZNk-n7-Ddf" id="yxp-Gj-iKP"/>
+                                    <outlet property="delegate" destination="ZNk-n7-Ddf" id="MpU-5m-V4i"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Svb-Km-xWe"/>
+                        <color key="backgroundColor" name="bgScissorGreyLight"/>
+                        <constraints>
+                            <constraint firstItem="54K-sW-j0M" firstAttribute="top" secondItem="i3V-eQ-s5y" secondAttribute="bottom" constant="50" id="7R9-PE-5Wp"/>
+                            <constraint firstItem="i3V-eQ-s5y" firstAttribute="leading" secondItem="Svb-Km-xWe" secondAttribute="leading" constant="42" id="8D8-ZK-eSk"/>
+                            <constraint firstItem="xfZ-vD-6IK" firstAttribute="top" secondItem="i3V-eQ-s5y" secondAttribute="bottom" constant="20" id="HQo-vw-qmL"/>
+                            <constraint firstItem="xfZ-vD-6IK" firstAttribute="leading" secondItem="i3V-eQ-s5y" secondAttribute="leading" id="KMu-Ee-t3p"/>
+                            <constraint firstItem="xfZ-vD-6IK" firstAttribute="trailing" secondItem="i3V-eQ-s5y" secondAttribute="trailing" id="Tb6-Kt-Pjk"/>
+                            <constraint firstItem="54K-sW-j0M" firstAttribute="centerX" secondItem="xfZ-vD-6IK" secondAttribute="centerX" id="aEV-5A-0TK"/>
+                            <constraint firstAttribute="bottom" secondItem="xfZ-vD-6IK" secondAttribute="bottom" id="dXJ-vE-kxR"/>
+                            <constraint firstItem="i3V-eQ-s5y" firstAttribute="height" secondItem="yZU-wS-4sK" secondAttribute="height" multiplier="0.235" constant="20" id="hjZ-rF-cEo">
+                                <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="Svb-Km-xWe" firstAttribute="trailing" secondItem="i3V-eQ-s5y" secondAttribute="trailing" constant="42" id="k7O-E9-XGt"/>
+                            <constraint firstItem="i3V-eQ-s5y" firstAttribute="top" secondItem="Svb-Km-xWe" secondAttribute="top" constant="15" id="tOS-Xg-qUf">
+                                <variation key="heightClass=regular-widthClass=regular" constant="25"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="BjX-C0-qSV"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="noOfProjectorsLbl" destination="iC1-B5-ck0" id="GK8-IB-Dpc"/>
+                        <outlet property="noProjectorsFoundLabel" destination="54K-sW-j0M" id="FL9-1R-M1P"/>
+                        <outlet property="projectorListTableView" destination="xfZ-vD-6IK" id="avc-tv-afc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LMg-uZ-ApR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153.73352855051243" y="205.6640625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bluetooth_white" width="8.3333330154418945" height="14"/>
+        <image name="info" width="128" height="128"/>
+        <image name="update" width="128" height="128"/>
+        <namedColor name="bgScissorGreyLight">
+            <color red="0.95686274509803926" green="0.94901960784313721" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="needleGrey">
+            <color red="0.11372549019607843" green="0.12156862745098039" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="safetyPinYellow">
+            <color red="0.9882352941176471" green="0.8901960784313725" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

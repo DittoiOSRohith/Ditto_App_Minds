@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Category</key>
+    <array>
+        <string>Subscribed</string>
+        <string>Purchased</string>
+        <string>Trials</string>
+    </array>
+    <key>Gender</key>
+    <array>
+        <string>Male</string>
+        <string>Female</string>
+        <string>Transgender</string>
+        <string>Other</string>
+    </array>
+    <key>Brand</key>
+    <array>
+        <string>Adidas</string>
+        <string>Levis</string>
+        <string>Crocodile</string>
+        <string>Denims</string>
+        <string>Feather</string>
+        <string>Louis &amp; Philipe</string>
+    </array>
+    <key>Size</key>
+    <array>
+        <string>XS</string>
+        <string>S</string>
+        <string>M</string>
+        <string>L</string>
+        <string>XL</string>
+        <string>XXL</string>
+        <string>FreeSize</string>
+    </array>
+    <key>Type</key>
+    <array>
+        <string>Skirt</string>
+        <string>Blouse</string>
+        <string>Pants</string>
+    </array>
+    <key>Season</key>
+    <array>
+        <string>Summer</string>
+        <string>Winter</string>
+        <string>Autumn</string>
+        <string>Spring</string>
+    </array>
+    <key>Occasion</key>
+    <array>
+        <string>Formal</string>
+        <string>Lounge</string>
+        <string>Sport</string>
+        <string>Sleepwear</string>
+        <string>Trekking</string>
+    </array>
+    <key>Age group</key>
+    <array>
+        <string>0-10</string>
+        <string>10-15</string>
+        <string>15-20</string>
+        <string>20-25</string>
+        <string>25-30</string>
+        <string>30-45</string>
+        <string>above 45</string>
+    </array>
+    <key>Customization</key>
+    <array>
+        <string>Yes</string>
+        <string>No</string>
+    </array>
+</dict>
+</plist>

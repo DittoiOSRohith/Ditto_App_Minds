@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_7" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNextLTPro-Demi.ttf">
+            <string>AvenirNextLTPro-Demi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalibartionAlertView" customModule="Ditto_Patterns" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="BtN-DY-Rm3" id="Vl1-sI-5Na"/>
+                <outlet property="lauchCameraButton" destination="ZzL-94-hzR" id="iPw-I9-TvV"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="WFx-A8-2Tw">
+            <rect key="frame" x="0.0" y="0.0" width="926" height="428"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oig-Fo-7IZ" userLabel="MainView">
+                    <rect key="frame" x="0.0" y="0.0" width="926" height="428"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bjf-ye-ZLk">
+                    <rect key="frame" x="193" y="68.666666666666686" width="540" height="270"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZzL-94-hzR">
+                            <rect key="frame" x="440" y="226" width="85" height="34"/>
+                            <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Continue">
+                                <color key="titleColor" systemColor="labelColor"/>
+                            </state>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="22"/>
+                            </variation>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BtN-DY-Rm3">
+                            <rect key="frame" x="15" y="226" width="85" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="85" id="BG5-4C-Fur">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="110"/>
+                                </constraint>
+                                <constraint firstAttribute="height" constant="34" id="obs-6Y-GKb">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="36"/>
+                                </constraint>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" systemColor="labelColor"/>
+                            </state>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="22"/>
+                            </variation>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9m-OV-AmX">
+                            <rect key="frame" x="30" y="156" width="480" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="OHq-t7-gKM">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                </constraint>
+                            </constraints>
+                            <attributedString key="attributedText">
+                                <fragment content="Confirm setup and make sure the red lighted rectangle shines ">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" size="14" name="AvenirNext-Medium"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="ON">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" size="14" name="AvenirNext-Medium"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        <integer key="NSUnderline" value="1"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" the white border of the cutting mat (NOT inside or outside)">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" size="14" name="AvenirNext-Medium"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <attributedString key="attributedText">
+                                    <fragment content="Confirm setup and make sure the red lighted rectangle shines ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="16" name="AvenirNext-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="ON">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="16" name="AvenirNext-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" the white border of the cutting mat (NOT inside or outside)">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="16" name="AvenirNext-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </variation>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calib_popup" translatesAutoresizingMaskIntoConstraints="NO" id="8Db-F1-egS">
+                            <rect key="frame" x="20" y="10" width="500" height="136"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="BtN-DY-Rm3" firstAttribute="top" secondItem="I9m-OV-AmX" secondAttribute="bottom" constant="10" id="3Ch-Af-Jme">
+                            <variation key="heightClass=regular-widthClass=regular" constant="25"/>
+                        </constraint>
+                        <constraint firstItem="8Db-F1-egS" firstAttribute="leading" secondItem="bjf-ye-ZLk" secondAttribute="leading" constant="20" id="7Ip-yF-Sg5">
+                            <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                        </constraint>
+                        <constraint firstAttribute="width" constant="540" id="8pe-fJ-Xcs">
+                            <variation key="heightClass=regular-widthClass=regular" constant="710"/>
+                        </constraint>
+                        <constraint firstItem="BtN-DY-Rm3" firstAttribute="bottom" secondItem="ZzL-94-hzR" secondAttribute="bottom" id="HoE-GC-Eag"/>
+                        <constraint firstAttribute="bottom" secondItem="BtN-DY-Rm3" secondAttribute="bottom" constant="10" id="M6Y-FW-iJc">
+                            <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                        </constraint>
+                        <constraint firstItem="8Db-F1-egS" firstAttribute="top" secondItem="bjf-ye-ZLk" secondAttribute="top" constant="10" id="TRD-9z-PXk">
+                            <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                        </constraint>
+                        <constraint firstItem="ZzL-94-hzR" firstAttribute="height" secondItem="BtN-DY-Rm3" secondAttribute="height" id="TiM-fd-qfU"/>
+                        <constraint firstAttribute="trailing" secondItem="8Db-F1-egS" secondAttribute="trailing" constant="20" id="X9k-qM-qvD">
+                            <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                        </constraint>
+                        <constraint firstItem="BtN-DY-Rm3" firstAttribute="top" secondItem="ZzL-94-hzR" secondAttribute="top" id="Yds-Im-847"/>
+                        <constraint firstItem="BtN-DY-Rm3" firstAttribute="leading" secondItem="bjf-ye-ZLk" secondAttribute="leading" constant="15" id="Zsu-zJ-aFd">
+                            <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                        </constraint>
+                        <constraint firstItem="I9m-OV-AmX" firstAttribute="top" secondItem="8Db-F1-egS" secondAttribute="bottom" constant="10" id="hKJ-by-Pje">
+                            <variation key="heightClass=regular-widthClass=regular" constant="15"/>
+                        </constraint>
+                        <constraint firstItem="8Db-F1-egS" firstAttribute="centerX" secondItem="bjf-ye-ZLk" secondAttribute="centerX" id="prx-Xk-yx3"/>
+                        <constraint firstAttribute="height" constant="270" id="qnw-oU-QOg">
+                            <variation key="heightClass=regular-widthClass=regular" constant="370"/>
+                        </constraint>
+                        <constraint firstItem="I9m-OV-AmX" firstAttribute="centerX" secondItem="bjf-ye-ZLk" secondAttribute="centerX" id="rGX-gB-bzo"/>
+                        <constraint firstItem="ZzL-94-hzR" firstAttribute="width" secondItem="BtN-DY-Rm3" secondAttribute="width" id="uiy-XP-jhM"/>
+                        <constraint firstItem="I9m-OV-AmX" firstAttribute="leading" secondItem="8Db-F1-egS" secondAttribute="leading" constant="10" id="wgn-1M-Vqz"/>
+                        <constraint firstAttribute="trailing" secondItem="ZzL-94-hzR" secondAttribute="trailing" constant="15" id="yZK-WW-vdm">
+                            <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                        </constraint>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="loP-HV-10K"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Oig-Fo-7IZ" secondAttribute="bottom" id="Hb1-uP-ppg"/>
+                <constraint firstItem="Oig-Fo-7IZ" firstAttribute="top" secondItem="WFx-A8-2Tw" secondAttribute="top" id="NE2-Af-XgJ"/>
+                <constraint firstItem="Oig-Fo-7IZ" firstAttribute="leading" secondItem="WFx-A8-2Tw" secondAttribute="leading" id="QwC-j6-5rI"/>
+                <constraint firstItem="bjf-ye-ZLk" firstAttribute="centerY" secondItem="loP-HV-10K" secondAttribute="centerY" id="oEe-LE-mEh"/>
+                <constraint firstItem="bjf-ye-ZLk" firstAttribute="centerX" secondItem="loP-HV-10K" secondAttribute="centerX" id="tUa-F7-Edo"/>
+                <constraint firstAttribute="trailing" secondItem="Oig-Fo-7IZ" secondAttribute="trailing" id="y0n-lw-eQd"/>
+            </constraints>
+            <point key="canvasLocation" x="138.19095477386935" y="115.82733812949641"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="calib_popup" width="244.33332824707031" height="80.666664123535156"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

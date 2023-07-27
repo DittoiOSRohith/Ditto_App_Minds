@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNext-DemiBold.ttf">
+            <string>AvenirNext-DemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Pattern Instructions-->
+        <scene sceneID="3Lw-Ze-cK8">
+            <objects>
+                <viewController storyboardIdentifier="patternInstructions" id="zTh-Aj-hQm" customClass="PatternInstructionsViewController" customModule="Ditto_Patterns" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YXJ-Ul-uyw">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="14f-ad-8qN">
+                                <rect key="frame" x="0.0" y="48" width="896" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mc-CS-3SI">
+                                        <rect key="frame" x="0.0" y="0.0" width="44" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="44" id="YdZ-TD-16I"/>
+                                        </constraints>
+                                        <state key="normal" image="BackBeam"/>
+                                        <connections>
+                                            <action selector="actionBack:" destination="zTh-Aj-hQm" eventType="touchUpInside" id="MC6-k3-6Cc"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pattern Instructions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNV-PK-zLc">
+                                        <rect key="frame" x="326" y="12.5" width="244" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="LBi-dQ-QKC">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                                            </constraint>
+                                            <constraint firstAttribute="width" constant="244" id="n7e-gP-exs">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="293"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                        <color key="textColor" name="needleGrey"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="0mc-CS-3SI" firstAttribute="leading" secondItem="14f-ad-8qN" secondAttribute="leading" id="7zT-QR-FUW"/>
+                                    <constraint firstAttribute="height" constant="50" id="QWB-lG-rli"/>
+                                    <constraint firstItem="0mc-CS-3SI" firstAttribute="top" secondItem="14f-ad-8qN" secondAttribute="top" id="TIm-UR-a1h"/>
+                                    <constraint firstItem="JNV-PK-zLc" firstAttribute="centerY" secondItem="14f-ad-8qN" secondAttribute="centerY" id="hm5-pq-QRP"/>
+                                    <constraint firstItem="JNV-PK-zLc" firstAttribute="centerX" secondItem="14f-ad-8qN" secondAttribute="centerX" id="pPr-so-UsP"/>
+                                    <constraint firstAttribute="bottom" secondItem="0mc-CS-3SI" secondAttribute="bottom" id="qGp-mZ-mMp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="frn-V9-Lua"/>
+                        <color key="backgroundColor" name="bgScissorGreyLight"/>
+                        <constraints>
+                            <constraint firstItem="14f-ad-8qN" firstAttribute="leading" secondItem="frn-V9-Lua" secondAttribute="leading" id="A2s-J9-Xhf"/>
+                            <constraint firstItem="14f-ad-8qN" firstAttribute="trailing" secondItem="frn-V9-Lua" secondAttribute="trailing" id="Tgc-I0-aBi"/>
+                            <constraint firstItem="14f-ad-8qN" firstAttribute="top" secondItem="frn-V9-Lua" secondAttribute="top" id="tao-N3-bQI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pattern Instructions" id="wsT-sY-IhT">
+                        <barButtonItem key="rightBarButtonItem" image="ham_menu" id="Kvb-Dc-S1e">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="hamburgerAction:" destination="zTh-Aj-hQm" id="LJ7-vK-ksn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="buttonBack" destination="0mc-CS-3SI" id="P2n-CQ-x0r"/>
+                        <outlet property="constraintHeigthNavBar" destination="QWB-lG-rli" id="0xV-HL-ZQW"/>
+                        <outlet property="labelNavTitle" destination="JNV-PK-zLc" id="eKl-dL-Pfp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nap-bX-TyI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="916.74107142857133" y="115.94202898550725"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackBeam" width="13" height="21"/>
+        <image name="ham_menu" width="36" height="36"/>
+        <namedColor name="bgScissorGreyLight">
+            <color red="0.94509803921568625" green="0.93725490196078431" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="needleGrey">
+            <color red="0.11372549019607843" green="0.12156862745098039" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

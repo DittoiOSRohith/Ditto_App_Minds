@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Projection Pattern FiskarV3r2 with 180 rotate_post_identity.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,164 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FabricTraceTransformFrx
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Accelerate
+import CoreGraphics
+import Darwin
+@_exported import FabricTraceTransformFrx
+import Foundation
+import Photos
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import os.log
+import os
+import simd
+public protocol JSONProtocol : Swift.Encodable {
+  @discardableResult
+  func saveAsJSON(filename: Swift.String) -> Swift.Bool
+}
+extension FabricTraceTransformFrx.JSONProtocol {
+  @discardableResult
+  public func saveAsJSON(filename: Swift.String) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers public class Node<T> {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LinkedList<T> {
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  public var first: FabricTraceTransformFrx.Node<T>? {
+    get
+  }
+  public var last: FabricTraceTransformFrx.Node<T>? {
+    get
+  }
+  public func append(value: T)
+  public func nodeAt(index: Swift.Int) -> FabricTraceTransformFrx.Node<T>?
+  public func removeAll()
+  public func remove(node: FabricTraceTransformFrx.Node<T>) -> T
+  @objc deinit
+}
+extension FabricTraceTransformFrx.LinkedList : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class FeatureDetectionUtils {
+  public static var calibrationErrorList: [Swift.String]
+  public static var processTimer: FabricTraceTransformFrx.ProcessTimer
+  public static var errorAnalysisInfo: FabricTraceTransformFrx.ErrorAnalysisInfo
+  public func bestFailureMode(brightRegQuadInfoRes: FabricTraceTransformFrx.BrightRegQuadInfoRes, nx: Swift.Int, ny: Swift.Int) -> (failureModesFound: [FabricTraceTransformFrx.FabricTraceTransform.CalibrationErrorCode], failureModesSeverity: [Swift.Double])
+  @objc deinit
+}
+extension Swift.Array where Element == Swift.Int {
+  public func clone() -> [Any]
+}
+extension Swift.Collection {
+  public func item(_ index: Self.Index) throws -> Self.Iterator.Element
+}
+@_hasMissingDesignatedInitializers public class FabricTraceTransform {
+  public enum TransformErrorCode : Swift.Error {
+    case success
+    case invalidImageFormat
+    case retakeImage
+    case additionalImageNeeded
+    case failToReadTransformParams
+    case failToScaleDownInputImage
+    public static func == (a: FabricTraceTransformFrx.FabricTraceTransform.TransformErrorCode, b: FabricTraceTransformFrx.FabricTraceTransform.TransformErrorCode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public static func performTransform(patternImage: UIKit.UIImage, overrideTransParams: Swift.String?, invertColor: Swift.Bool = true) -> (FabricTraceTransformFrx.FabricTraceTransform.TransformErrorCode, UIKit.UIImage)
+  @objc deinit
+}
+public class ProcessTimer {
+  public func getAllTimer() -> [Swift.String : Swift.String]
+  public init()
+  public func startTimer(name: Swift.String)
+  public func stopTimer()
+  public func clearAllProcessInfo()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class FeatureDetection : ObjectiveC.NSObject {
+  public var brightRegQuadInfoRes: FabricTraceTransformFrx.BrightRegQuadInfoRes?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct BrightRegQuadInfoRes : Swift.Decodable {
+  public func info() -> [Swift.String : Swift.String]
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct ErrorAnalysisInfo : Swift.Decodable {
+  public func info() -> [Swift.String : Swift.String]
+  public init(from decoder: Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class ProjTransFit : ObjectiveC.NSObject {
+  public static var finalAggDeviate: Swift.Double
+  public static var finalMaxAggDeviate: Swift.Double
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct PixelData {
+}
+extension Swift.Array {
+  public func indexOf<T>(_ filter: (_ value: T) -> Swift.Bool) -> [Swift.Int]
+  public func valuesOf<T>(index: [Swift.Int]) -> [T]
+}
+extension Swift.Double {
+  public static var max: Swift.Double {
+    get
+  }
+  public static var min: Swift.Double {
+    get
+  }
+}
+extension Swift.Float {
+  public static var max: Swift.Float {
+    get
+  }
+  public static var min: Swift.Float {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class Utillity {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class CamTransFit : ObjectiveC.NSObject {
+  public static var finalAggDeviate: Swift.Double
+  public static var finalMaxAggDeviate: Swift.Double
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension FabricTraceTransformFrx.FabricTraceTransform {
+  public enum CalibrationErrorCode : Swift.Int, Swift.Decodable {
+    case success
+    case patternImageIsCropped
+    case cameraDistanceTooFarBack
+    case cameraHeightTooLow
+    case cameraTooFarLeftOrRight
+    case orientationNotLandscape
+    case cameraResolutionTooLow
+    case matIsRotated180Degrees
+    case imageTooBlurr
+    case imageTooBright
+    case failCalibration
+    public func getText() -> Swift.String
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public static func performCalibration(cameraImages: [UIKit.UIImage], saveInputImage: Swift.Bool = true) -> FabricTraceTransformFrx.FabricTraceTransform.CalibrationErrorCode
+}
+extension FabricTraceTransformFrx.FabricTraceTransform.TransformErrorCode : Swift.Equatable {}
+extension FabricTraceTransformFrx.FabricTraceTransform.TransformErrorCode : Swift.Hashable {}
+extension FabricTraceTransformFrx.FabricTraceTransform.CalibrationErrorCode : Swift.Equatable {}
+extension FabricTraceTransformFrx.FabricTraceTransform.CalibrationErrorCode : Swift.Hashable {}
+extension FabricTraceTransformFrx.FabricTraceTransform.CalibrationErrorCode : Swift.RawRepresentable {}

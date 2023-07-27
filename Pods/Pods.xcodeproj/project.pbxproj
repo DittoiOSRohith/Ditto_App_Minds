@@ -1,0 +1,1863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04658A74CE30C59DE584AD6E3BEDB4FF /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC31105853A23E2189CC67EFD2E98E /* Bit.swift */; };
+		04B867EE5589C20DC463BF99F56F4EFA /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877613C1F210FC29B40DBBD6CCA2E437 /* Authenticator.swift */; };
+		092AB6E4AC3E39C9BB32E42809A7CB53 /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DE25842A6E76AA648098A3953EEA76 /* SecureBytes.swift */; };
+		0ED1F67CF8CC68F6A0A81FFF79FB3CA3 /* FastServerSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C8061019B65FB0FCE5898D2FE473D441 /* FastServerSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1059634A5C8EC7B8E87069E413867A71 /* Blowfish.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A269B9DD8184588206EF77E17D2F0B /* Blowfish.swift */; };
+		11ED743FBDF147C7A89A48E19F3BE288 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DF16C71080065553504E7902F2D8A /* Generics.swift */; };
+		1760D67C7C6C83924E941BD46719DC15 /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC49E07C7B97E8EE8A78EEC4519757A6 /* PKCS5.swift */; };
+		1EF11119435637A92859CCBFB173A58C /* Pods-Ditto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB90E8FC81529B9DF9648C21C5E32E53 /* Pods-Ditto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		212602EFD460AE8FD599EC590C46718D /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F40A73507303DEBDE0C0AAD0215101 /* Array+Extension.swift */; };
+		227AE9C271ADBAC5D9DE49D964C2C55B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2719C0F3AC7CCD3E7E72D8A9F508F67E /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B75130F044CAF142E88C6083A63A45 /* Cryptor.swift */; };
+		2737386E7001B751585CBA3F695FED70 /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FB7EC3F43D630A81A0D07322DF6BE /* UInt64+Extension.swift */; };
+		310A89F2EA3124C5D67A47E32EC2B51D /* CCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4BDBEE03952DD38AA68379CD56B55 /* CCM.swift */; };
+		34F8A9246E28BAF242E172ADB85CA15A /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4383651B3C97ED070B56B34BD5EA6D3 /* SHA1.swift */; };
+		361D72B5E02C81B057EEA7C4E8A69F95 /* FastServerSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5FBAD2E1291B9C5DAA562E77C3BEBB /* FastServerSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3863496FC2A02B720B4C54A0D341F7D0 /* UInt32+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E5D481C345BE5AD512E6C3D65B3D7 /* UInt32+Extension.swift */; };
+		3929A86875D5EBC9403161D16C03FD79 /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E17D9A78890EE14016DB52DD772AE7 /* BlockMode.swift */; };
+		3D09ED5D8FF51661EB932718D0976938 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385DF42E325F88819A4C86E7BF3D752 /* MD5.swift */; };
+		3D7EBA5181B60708942BFE8C84902F49 /* Pods-Ditto-DittoDev-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5034E3C971F95A9C6F85956BD46EC857 /* Pods-Ditto-DittoDev-dummy.m */; };
+		4065884F49B7A5C3D9FB8C729617DD9D /* BlockDecryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D615C47FBA60DB71E26F9D7017DB8F1 /* BlockDecryptor.swift */; };
+		461042FD42CA459351B89DD3F00BB4F7 /* ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6FCAA49D85AD1E97BD531EDC293A1A /* ECB.swift */; };
+		47FB0BD95EFA7D3CD4F828CC6997E03F /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26805A110D17D9166D8C14B44008CCAB /* Data+Extension.swift */; };
+		4D96B9AE495D5F891962CF4F40E70F75 /* CFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F39B9BEE7BE28E88768D7DF8D9B19F3 /* CFB.swift */; };
+		4ECC439B8EF9419E303FC3F66A038921 /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143AD113EC1DC26BE060389BA84710F1 /* BlockCipher.swift */; };
+		500EE7EF50335F140760427E40B38843 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E54A662944AA40005F43B5615D703 /* Collection+Extension.swift */; };
+		561AF3F0BF7080D7CC6A7D3483EAB49C /* Array+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06EB686436C3538AB53D1B7CAF1270F /* Array+Foundation.swift */; };
+		581F19117AA62A212650C2D2500CDAC1 /* FastSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A365814013006B34DF6CB53A43A554B0 /* FastSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A05632174962E954E091F3B2D3A291A /* BlockEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF539D8DB8A03E81A9B6F415AE504F0 /* BlockEncryptor.swift */; };
+		5DA899D7C7A4CDBE32EBF5A057680D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5F2FA8DC13D544D61DFAAFC903D2754E /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7782FA874E146EF1EE4E18DF6DFB92 /* BlockModeOptions.swift */; };
+		628AF982D5922FBA77D8B13918B3EB05 /* Pods-DittoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B401B968D63056B1BDE389455D0145BB /* Pods-DittoTests-dummy.m */; };
+		62B30148720B708C6643AA8948D296B9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCED570A6E9C1DB996D51802D7A8E45C /* Utils.swift */; };
+		66D75F91A23467F5EAF457C5979C3D05 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9448C8080084EA5919ED7C0024B0774 /* SHA2.swift */; };
+		686BA97778ABDC0CC1C2AF826B700C7F /* Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E4F32D6990519327BA259B84D42DB /* Cryptors.swift */; };
+		6A824F720D5290CFB2FF016A8889A5CF /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F52E04FE7F6F4F1EAA40E12B99978F /* CBC.swift */; };
+		6B7B9ACD074B340EE5FF4BB635DE2D6C /* AES+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400B49DF8FD9661631CA191AB70DF12 /* AES+Foundation.swift */; };
+		6E14EE4850E006545951098AAFD6F51B /* UInt128.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2E63CAC9DFCB88EB7F213C890B3BC /* UInt128.swift */; };
+		702F0327A31EA55E54A47C8A7564BB8C /* FastSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BD1E17552402E92B02A28951B7A839 /* FastSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		70EFDF8D23691F213A7B72A0D000E35B /* Pods-DittoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C41550881E18E9E99353ADF14F42AFE /* Pods-DittoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74B709B2AA2FC4EC703529CC28F1EBA3 /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B706F7365759340256961D2E62C42D /* OFB.swift */; };
+		7707E8B21F4D74EC48166EDE53174F43 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FED91A8423AAFC5589C9831A3783D /* Digest.swift */; };
+		772A763E2C1955491C8738E395B6F371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7A7858231865B3FBFC9005CFA614F4D5 /* CipherModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7006FBE3E9E0414A05D2032B0D02F401 /* CipherModeWorker.swift */; };
+		7B1E4782B8200013E1CCAA1CAE33A027 /* Utils+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31780760100D8D97BA6061E8B68AD0 /* Utils+Foundation.swift */; };
+		7B411945CDA82190B40DAC92344A838B /* CMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C132BDE98A273257E4DC07EBCAC333 /* CMAC.swift */; };
+		7C2A48CA50B833F4EBF03AC20C6CDB2E /* DigestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF33B31B38E5318607BA7F765DF4AEB /* DigestType.swift */; };
+		80EE423644BA08777D368489291A2BC4 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F105938B3FFCC15EAFDA64B3AD19F3B /* Int+Extension.swift */; };
+		8256F0F33F568E1AAC5652F060B72126 /* HMAC+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1232353F9D1739CF41DA1019C7352AC8 /* HMAC+Foundation.swift */; };
+		83591014D94128B665EFBA2C0C170B47 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34114EA102DC34B1EAC812FF44DA152 /* HMAC.swift */; };
+		8FD3E98BEBA6046512F8BAFA25B7AEDE /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27DC8AE4A89458A31E05D0514B0CE9E /* Updatable.swift */; };
+		901BC854CB140B3AA3612444E9FD6149 /* Blowfish+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F46A866EBC03AF85C56FF32091637D5 /* Blowfish+Foundation.swift */; };
+		90E79C6BA9F699C239D795B34C93A276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9382403271DA6B228A8B5E7DF9F0B39A /* AEAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0933D4712460C41716696054A341C5B4 /* AEAD.swift */; };
+		938DDC79F508AD3113936B5122FB5EA8 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C2C1352B20AF8C5737F3CC3AE562B /* Operators.swift */; };
+		93A9720F6ADCF68E02A775F9618BE4EA /* AEADChaCha20Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B1B6CF3C8D15D0E6C8B30622343298 /* AEADChaCha20Poly1305.swift */; };
+		93E92A3C214617A5A36B74B56E0414AD /* CryptoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 518BC1145456FC03B7720D47F9297A34 /* CryptoSwift-dummy.m */; };
+		967B2FA4F76DC188640D3D933065811D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		97C653A5B0F9397A7003DA4FD34C638C /* BatchedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E209C980BC984062EDFAEA6E6C18A6 /* BatchedCollection.swift */; };
+		987B4B3CE0C700A223D13A8008BEBBD9 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D6BC666AF407134D7AE8AFF572C1AA /* AES.swift */; };
+		9B94F8D352EDA6EBAB0413375362E3DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9C198A5D7A9D5D8C42D59E87AD5539C9 /* FastSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AC521C19C0AF791277CD47316218F /* FastSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C31FF836F1A641A5EDFC527F7027DE4 /* Pods-Ditto-DittoDev-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC7B36DDCCDB33B61880204BF3DF546 /* Pods-Ditto-DittoDev-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D1CB738AE0C77D154714C0DEDF583A2 /* CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F92CDEE96C1859DED50AE485EF2920 /* CompactMap.swift */; };
+		A1201F2C4EED4004FF30561447FDCD08 /* OCB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D34B080A1FFC12A04BFA2090EA23EE7 /* OCB.swift */; };
+		A1CD7E842EFD036C7E18B100CCC2212F /* AES.Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40618BA9C8D81F6B660C4D34E3F17 /* AES.Cryptors.swift */; };
+		A3F7EFA9EB600164E5B37ED89916D530 /* Pods-Ditto-DittoDev11-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5471EC00FF2DC9470EE8465E2974362C /* Pods-Ditto-DittoDev11-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A56204A6BF427320CA3AB92186EE4593 /* PCBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483DCEBC4540077F2922CA5FDA735873 /* PCBC.swift */; };
+		A5629AE35216BDA2CA87755D4388A9D5 /* Pods-Ditto-DittoQA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FA2262AAF4773277AEAEDF1655FC17 /* Pods-Ditto-DittoQA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAD31997B4B61AB014E408B9978845CA /* Checksum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BAF84EA42D1223980312F4C919F44 /* Checksum.swift */; };
+		AC01A26DF9B929D914F3CCF7CDAA18C1 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477409E6195C73BF48F8AF979C276F58 /* Padding.swift */; };
+		AC98B38330D10E1A93BE3B5869038B05 /* GCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA455CCDF22F3D5AC921946704DFBD8 /* GCM.swift */; };
+		ADCA32D5B494867B27A64CD3D1F7684F /* CryptoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E53292B3C8C801230DC3E760C1AB7E63 /* CryptoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17C7C47556932AEF97471A30817A6ED /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0592FFCCBD4C0DF89948F8D7DF3E1 /* ChaCha20.swift */; };
+		B255C5DD4C1DF84472FE44BE12F86293 /* Pods-Ditto-DittoQA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B216410155C57C14EBA1C0A50F3CA95 /* Pods-Ditto-DittoQA-dummy.m */; };
+		B724F46B23406271337E4FC1465E4BFE /* FastSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD1937BA952BA4779359FF788B54CD7 /* FastSocket-dummy.m */; };
+		B7C6C2B193C179BAEBF6DC6363E4F4B2 /* String+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176058CAF588039738319E6D5E8AD2C /* String+FoundationExtension.swift */; };
+		B9BDD478B6C7DBC7A507CBAE991ED1E4 /* UInt16+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B749D62BD67258E887819F3BD712B /* UInt16+Extension.swift */; };
+		BFD0B531181FC61B5352B336D396DE3F /* HKDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC12CF4390FA7A8AF2F519787BF868B8 /* HKDF.swift */; };
+		C22DD8B82B4FFDF39A2DA28DCFB51442 /* CTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986812388919CEF35F001AAB433B6D9C /* CTR.swift */; };
+		C6933986857687582F7839318BAD87CA /* Rabbit+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84FC3FC827BB355C17E62030222B11C /* Rabbit+Foundation.swift */; };
+		C728BD08903EBBBD63700D50A3DD2DE2 /* CBCMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCD9AD257764A8E539E78A44C966FF /* CBCMAC.swift */; };
+		CCA7BBBB19CA76ED855E0BAEE336EBC6 /* Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD79A963206A753818C02E244C7625F /* Poly1305.swift */; };
+		CDFE1DC6AFB0497173F839577143DDEA /* ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D748D115D62A8CCEB4D62D30985F5361 /* ChaCha20+Foundation.swift */; };
+		D1F1F43E3FC2809611B009B0B1763455 /* NoPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616336B3E91FE77BB3EC367AAF0ACE0C /* NoPadding.swift */; };
+		D57299B311BC06B6ADA3B6F7B971B625 /* Pods-Ditto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 754862663B854C5B9102BB706575767E /* Pods-Ditto-dummy.m */; };
+		DC6C76B6D319311833F0835F7D0F708A /* Scrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6075BB89DF2113FEAE25ADB3D70911 /* Scrypt.swift */; };
+		E400B760BE204AB7991A2541312EB6EC /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0AB02743DB47B09C5C6F76075CB4A /* PBKDF2.swift */; };
+		E415EC15D952FE790FD19C5978D8CA3F /* ISO78164Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FE230136FE7540621E82766B52AE9F /* ISO78164Padding.swift */; };
+		E57EA7C0193D2AE5751EEA8F8238C3C3 /* ZeroPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1ED93B0D205593387954EA519FA2CC /* ZeroPadding.swift */; };
+		E5D7379C5A72FB32783E543152BF09D0 /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1A013130C24A0058518B32355905C /* Rabbit.swift */; };
+		E9C34608A4E18AD81F4C28517877F966 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD9F41991C1260C9A7A8A30838404F /* Cipher.swift */; };
+		F06836B09C12FA3570B7321A273BBCDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F397035F9361336DD834408274C1F350 /* PBKDF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E483D3510FFD801EFED1035F0B9D1A /* PBKDF1.swift */; };
+		F3C746D9E64CE6F2633F88941F642857 /* StreamEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E3ED077957808FE835E7F2885972E /* StreamEncryptor.swift */; };
+		F3E76FB6D7B21EDDB734FE70C6DD2624 /* PKCS7Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7D3C2330A075C8C921431CE1C77B8 /* PKCS7Padding.swift */; };
+		F5C5C122DB49A8788F2D18AECA033EDE /* SHA3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EC5A7E17DB36B4DC86913597F47522 /* SHA3.swift */; };
+		F65D53E1F33BC677B71655CBF4EC859D /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010DED591BDBFC54CDC2EBCA839518DC /* PKCS7.swift */; };
+		F919CB1CC82A21ECDE362201FFC8FF0D /* UInt8+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1FA1CD99AE6BEECC579B738FEDE7ED /* UInt8+Extension.swift */; };
+		F98FD6C665591D0FC084FC6A9DD385E9 /* Pods-Ditto-DittoDev11-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80057DED8D02602BC7AE447EF019301D /* Pods-Ditto-DittoDev11-dummy.m */; };
+		FB015B789A957E6666137FB84506ABDE /* StreamDecryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B7FCAD3F42051AB7327E81E7C2D97 /* StreamDecryptor.swift */; };
+		FCFD32EEF7379FE7DF74414D3BB5F17C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE17440A25291D9A58866168E34920 /* String+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26CB9509B825D03312451D5DB85F1E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99313990C1D76A6D1D017868B6975CC8;
+			remoteInfo = CryptoSwift;
+		};
+		30FC3412AF867E11DCC31D54CB50ECD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99313990C1D76A6D1D017868B6975CC8;
+			remoteInfo = CryptoSwift;
+		};
+		33EE41B89C24676D8658A5989B184B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B54CBA9C5F2FC24BEA16197D4992804;
+			remoteInfo = FastSocket;
+		};
+		42A7181C1C4463B3C6F5454E53F2C6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B54CBA9C5F2FC24BEA16197D4992804;
+			remoteInfo = FastSocket;
+		};
+		89A865C6768A10DC84101F7A1F253CBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99313990C1D76A6D1D017868B6975CC8;
+			remoteInfo = CryptoSwift;
+		};
+		B3BC9B2C25DB372B913A6E040B9CBA3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99313990C1D76A6D1D017868B6975CC8;
+			remoteInfo = CryptoSwift;
+		};
+		B790EC2376492CE21ABADC4A07C139F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B54CBA9C5F2FC24BEA16197D4992804;
+			remoteInfo = FastSocket;
+		};
+		CF2D3053D9F47DB4DE58198EAF7634C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B54CBA9C5F2FC24BEA16197D4992804;
+			remoteInfo = FastSocket;
+		};
+		E87FEA3EFC3C61685FD1224EF7E9C59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D51DB3E6314F689EA16830F1070E6B15;
+			remoteInfo = "Pods-Ditto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010DED591BDBFC54CDC2EBCA839518DC /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/CryptoSwift/PKCS/PKCS7.swift; sourceTree = "<group>"; };
+		028E3ED077957808FE835E7F2885972E /* StreamEncryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamEncryptor.swift; path = Sources/CryptoSwift/StreamEncryptor.swift; sourceTree = "<group>"; };
+		02DE25842A6E76AA648098A3953EEA76 /* SecureBytes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureBytes.swift; path = Sources/CryptoSwift/SecureBytes.swift; sourceTree = "<group>"; };
+		04BE17440A25291D9A58866168E34920 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Sources/CryptoSwift/String+Extension.swift"; sourceTree = "<group>"; };
+		06E483D3510FFD801EFED1035F0B9D1A /* PBKDF1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF1.swift; path = Sources/CryptoSwift/PKCS/PBKDF1.swift; sourceTree = "<group>"; };
+		074EE9AE9EC90A117D862144D3D52478 /* Pods-Ditto-DittoQA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ditto-DittoQA.release.xcconfig"; sourceTree = "<group>"; };
+		0933D4712460C41716696054A341C5B4 /* AEAD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEAD.swift; path = Sources/CryptoSwift/AEAD/AEAD.swift; sourceTree = "<group>"; };
+		09AB854CE6660A5DBBCFAC1BC8D1C476 /* Pods-Ditto-DittoQA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ditto-DittoQA-frameworks.sh"; sourceTree = "<group>"; };
+		0A31780760100D8D97BA6061E8B68AD0 /* Utils+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Utils+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Utils+Foundation.swift"; sourceTree = "<group>"; };
+		0A3E54A662944AA40005F43B5615D703 /* Collection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Extension.swift"; path = "Sources/CryptoSwift/Collection+Extension.swift"; sourceTree = "<group>"; };
+		0DD79A963206A753818C02E244C7625F /* Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poly1305.swift; path = Sources/CryptoSwift/Poly1305.swift; sourceTree = "<group>"; };
+		113C678FFCD3E249E84FE3AE917B268E /* CryptoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.debug.xcconfig; sourceTree = "<group>"; };
+		1232353F9D1739CF41DA1019C7352AC8 /* HMAC+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HMAC+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/HMAC+Foundation.swift"; sourceTree = "<group>"; };
+		12F660BB51013EA2E0B297BCD5C6656D /* Pods-Ditto-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ditto-acknowledgements.markdown"; sourceTree = "<group>"; };
+		139398C3DA9419529C0B3E987BF659B4 /* Pods-Ditto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ditto.modulemap"; sourceTree = "<group>"; };
+		1400B49DF8FD9661631CA191AB70DF12 /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
+		143AD113EC1DC26BE060389BA84710F1 /* BlockCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockCipher.swift; path = Sources/CryptoSwift/BlockCipher.swift; sourceTree = "<group>"; };
+		1A4F98D11DFCFFF15118AE3B8F189A33 /* FastSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastSocket.release.xcconfig; sourceTree = "<group>"; };
+		1AD4BDBEE03952DD38AA68379CD56B55 /* CCM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCM.swift; path = Sources/CryptoSwift/BlockMode/CCM.swift; sourceTree = "<group>"; };
+		1D34B080A1FFC12A04BFA2090EA23EE7 /* OCB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OCB.swift; path = Sources/CryptoSwift/BlockMode/OCB.swift; sourceTree = "<group>"; };
+		1DD54EE8540FAFBAE4FF0150B1FC659D /* Pods-Ditto-DittoQA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ditto-DittoQA-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2081B40CF50108F2F0CEAC1DF11FC7E9 /* Pods-DittoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DittoTests.modulemap"; sourceTree = "<group>"; };
+		266AC521C19C0AF791277CD47316218F /* FastSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastSocket-umbrella.h"; sourceTree = "<group>"; };
+		26805A110D17D9166D8C14B44008CCAB /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/CryptoSwift/Foundation/Data+Extension.swift"; sourceTree = "<group>"; };
+		293DF16C71080065553504E7902F2D8A /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/CryptoSwift/Generics.swift; sourceTree = "<group>"; };
+		29C132BDE98A273257E4DC07EBCAC333 /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMAC.swift; path = Sources/CryptoSwift/CMAC.swift; sourceTree = "<group>"; };
+		2C41550881E18E9E99353ADF14F42AFE /* Pods-DittoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DittoTests-umbrella.h"; sourceTree = "<group>"; };
+		2D70D9C3EB4EEDD4824E5CB776112537 /* Pods-Ditto-DittoQA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ditto-DittoQA.debug.xcconfig"; sourceTree = "<group>"; };
+		2DED556D59163DDC78D6F2522528120D /* Pods-Ditto-DittoDev11-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ditto-DittoDev11-frameworks.sh"; sourceTree = "<group>"; };
+		2EF539D8DB8A03E81A9B6F415AE504F0 /* BlockEncryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockEncryptor.swift; path = Sources/CryptoSwift/BlockEncryptor.swift; sourceTree = "<group>"; };
+		2F84FB815B184DEE7A1B609F85D0B0B0 /* Pods-Ditto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ditto.release.xcconfig"; sourceTree = "<group>"; };
+		2FC190645E504D9BAA8717121D87CD43 /* Pods-Ditto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ditto.debug.xcconfig"; sourceTree = "<group>"; };
+		3176058CAF588039738319E6D5E8AD2C /* String+FoundationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FoundationExtension.swift"; path = "Sources/CryptoSwift/Foundation/String+FoundationExtension.swift"; sourceTree = "<group>"; };
+		338FED91A8423AAFC5589C9831A3783D /* Digest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Digest.swift; path = Sources/CryptoSwift/Digest.swift; sourceTree = "<group>"; };
+		34F8FD48691CBA90E907249F91ACB0A7 /* Pods-Ditto-DittoDev-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ditto-DittoDev-Info.plist"; sourceTree = "<group>"; };
+		35B5893A8B5439A6958334F2AE3CC003 /* Pods-Ditto-DittoDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ditto-DittoDev.debug.xcconfig"; sourceTree = "<group>"; };
+		35FD9F41991C1260C9A7A8A30838404F /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Sources/CryptoSwift/Cipher.swift; sourceTree = "<group>"; };
+		37E17D9A78890EE14016DB52DD772AE7 /* BlockMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockMode.swift; path = Sources/CryptoSwift/BlockMode/BlockMode.swift; sourceTree = "<group>"; };
+		386BC7E2096F01480DD3F9D421711555 /* Pods-Ditto-DittoDev-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ditto-DittoDev-frameworks.sh"; sourceTree = "<group>"; };
+		3D615C47FBA60DB71E26F9D7017DB8F1 /* BlockDecryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockDecryptor.swift; path = Sources/CryptoSwift/BlockDecryptor.swift; sourceTree = "<group>"; };
+		3D7782FA874E146EF1EE4E18DF6DFB92 /* BlockModeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeOptions.swift; path = Sources/CryptoSwift/BlockMode/BlockModeOptions.swift; sourceTree = "<group>"; };
+		426FF60B73804942B299ED2D6932AA45 /* Pods-DittoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DittoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		477409E6195C73BF48F8AF979C276F58 /* Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = Sources/CryptoSwift/Padding.swift; sourceTree = "<group>"; };
+		483DCEBC4540077F2922CA5FDA735873 /* PCBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCBC.swift; path = Sources/CryptoSwift/BlockMode/PCBC.swift; sourceTree = "<group>"; };
+		4AECA2028EE4654804FA04AD9EE8E7A0 /* Pods-Ditto-DittoQA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ditto-DittoQA.modulemap"; sourceTree = "<group>"; };
+		4B6FCAA49D85AD1E97BD531EDC293A1A /* ECB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECB.swift; path = Sources/CryptoSwift/BlockMode/ECB.swift; sourceTree = "<group>"; };
+		5034E3C971F95A9C6F85956BD46EC857 /* Pods-Ditto-DittoDev-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ditto-DittoDev-dummy.m"; sourceTree = "<group>"; };
+		518BC1145456FC03B7720D47F9297A34 /* CryptoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoSwift-dummy.m"; sourceTree = "<group>"; };
+		51C2E63CAC9DFCB88EB7F213C890B3BC /* UInt128.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UInt128.swift; path = Sources/CryptoSwift/UInt128.swift; sourceTree = "<group>"; };
+		52E0AB02743DB47B09C5C6F76075CB4A /* PBKDF2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF2.swift; path = Sources/CryptoSwift/PKCS/PBKDF2.swift; sourceTree = "<group>"; };
+		52FA2262AAF4773277AEAEDF1655FC17 /* Pods-Ditto-DittoQA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ditto-DittoQA-umbrella.h"; sourceTree = "<group>"; };
+		5471EC00FF2DC9470EE8465E2974362C /* Pods-Ditto-DittoDev11-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ditto-DittoDev11-umbrella.h"; sourceTree = "<group>"; };
+		54D40618BA9C8D81F6B660C4D34E3F17 /* AES.Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.Cryptors.swift; path = Sources/CryptoSwift/AES.Cryptors.swift; sourceTree = "<group>"; };
+		563B7FCAD3F42051AB7327E81E7C2D97 /* StreamDecryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamDecryptor.swift; path = Sources/CryptoSwift/StreamDecryptor.swift; sourceTree = "<group>"; };
+		58441178075CA130EFDDC4C6859D986D /* Pods-Ditto-DittoDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ditto-DittoDev.release.xcconfig"; sourceTree = "<group>"; };
+		588BC5D12CA10A6007B8AA115813F609 /* Pods-Ditto-DittoQA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ditto-DittoQA-acknowledgements.plist"; sourceTree = "<group>"; };
+		58CCD9AD257764A8E539E78A44C966FF /* CBCMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBCMAC.swift; path = Sources/CryptoSwift/CBCMAC.swift; sourceTree = "<group>"; };
+		5945F884D0EFD5DE494563706E8F5092 /* FastSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FastSocket.modulemap; sourceTree = "<group>"; };
+		595598A5C565E55F4A5A40887D27F04A /* CryptoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.release.xcconfig; sourceTree = "<group>"; };
+		5B3B888028D83D49FB0641CA09FF4BAD /* Pods-Ditto-DittoDev11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ditto-DittoDev11.release.xcconfig"; sourceTree = "<group>"; };
+		5C9C2C1352B20AF8C5737F3CC3AE562B /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
+		5D1ED93B0D205593387954EA519FA2CC /* ZeroPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroPadding.swift; path = Sources/CryptoSwift/ZeroPadding.swift; sourceTree = "<group>"; };
+		5F46A866EBC03AF85C56FF32091637D5 /* Blowfish+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Blowfish+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Blowfish+Foundation.swift"; sourceTree = "<group>"; };
+		616336B3E91FE77BB3EC367AAF0ACE0C /* NoPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPadding.swift; path = Sources/CryptoSwift/NoPadding.swift; sourceTree = "<group>"; };
+		6385DF42E325F88819A4C86E7BF3D752 /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/CryptoSwift/MD5.swift; sourceTree = "<group>"; };
+		64C28D4CAC14911FD767B1961D8ACF14 /* Pods-Ditto-DittoDev11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ditto-DittoDev11.debug.xcconfig"; sourceTree = "<group>"; };
+		66FE230136FE7540621E82766B52AE9F /* ISO78164Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO78164Padding.swift; path = Sources/CryptoSwift/ISO78164Padding.swift; sourceTree = "<group>"; };
+		6B216410155C57C14EBA1C0A50F3CA95 /* Pods-Ditto-DittoQA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ditto-DittoQA-dummy.m"; sourceTree = "<group>"; };
+		6F39B9BEE7BE28E88768D7DF8D9B19F3 /* CFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFB.swift; path = Sources/CryptoSwift/BlockMode/CFB.swift; sourceTree = "<group>"; };
+		6FA5CC42F3435AE0E3CCB3F7BA67C8BC /* Pods-DittoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DittoTests-Info.plist"; sourceTree = "<group>"; };
+		7006FBE3E9E0414A05D2032B0D02F401 /* CipherModeWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CipherModeWorker.swift; path = Sources/CryptoSwift/BlockMode/CipherModeWorker.swift; sourceTree = "<group>"; };
+		70F92CDEE96C1859DED50AE485EF2920 /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = Sources/CryptoSwift/CompactMap.swift; sourceTree = "<group>"; };
+		72E262BAFAEDA414DE854ED031B60857 /* CryptoSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		754862663B854C5B9102BB706575767E /* Pods-Ditto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ditto-dummy.m"; sourceTree = "<group>"; };
+		76B75130F044CAF142E88C6083A63A45 /* Cryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptor.swift; path = Sources/CryptoSwift/Cryptor.swift; sourceTree = "<group>"; };
+		77B0D897CA19DB0BA41E58B6DE28B584 /* Pods-Ditto-DittoDev11 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Ditto-DittoDev11"; path = Pods_Ditto_DittoDev11.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B7E7FDE2F233B06FB0D7060BFBABC8 /* Pods-Ditto-DittoDev11.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ditto-DittoDev11.modulemap"; sourceTree = "<group>"; };
+		79FF2AC8E362E38A87A31F86B61EA61E /* Pods-Ditto-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ditto-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BEB9F4AFBCF48C30BB784569E92E30E /* Pods-DittoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DittoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D6075BB89DF2113FEAE25ADB3D70911 /* Scrypt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scrypt.swift; path = Sources/CryptoSwift/Scrypt.swift; sourceTree = "<group>"; };
+		7D8FB7EC3F43D630A81A0D07322DF6BE /* UInt64+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt64+Extension.swift"; path = "Sources/CryptoSwift/UInt64+Extension.swift"; sourceTree = "<group>"; };
+		80057DED8D02602BC7AE447EF019301D /* Pods-Ditto-DittoDev11-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ditto-DittoDev11-dummy.m"; sourceTree = "<group>"; };
+		83E209C980BC984062EDFAEA6E6C18A6 /* BatchedCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BatchedCollection.swift; path = Sources/CryptoSwift/BatchedCollection.swift; sourceTree = "<group>"; };
+		85DE862F44729876A9326F6EE7E20EFF /* Pods-DittoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DittoTests.release.xcconfig"; sourceTree = "<group>"; };
+		877613C1F210FC29B40DBBD6CCA2E437 /* Authenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authenticator.swift; path = Sources/CryptoSwift/Authenticator.swift; sourceTree = "<group>"; };
+		8951D14009D86CF5B3C52DBB19CD1231 /* Pods-Ditto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ditto-Info.plist"; sourceTree = "<group>"; };
+		8F105938B3FFCC15EAFDA64B3AD19F3B /* Int+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "Sources/CryptoSwift/Int+Extension.swift"; sourceTree = "<group>"; };
+		8F8BAF84EA42D1223980312F4C919F44 /* Checksum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checksum.swift; path = Sources/CryptoSwift/Checksum.swift; sourceTree = "<group>"; };
+		90D5369BFAEC58BD0F4CCCE46601B6F7 /* Pods-Ditto-DittoDev.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ditto-DittoDev.modulemap"; sourceTree = "<group>"; };
+		92530DC7AF57A63CEB7946E2853126AD /* Pods-DittoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DittoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		94A7D3C2330A075C8C921431CE1C77B8 /* PKCS7Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7Padding.swift; path = Sources/CryptoSwift/PKCS/PKCS7Padding.swift; sourceTree = "<group>"; };
+		95B706F7365759340256961D2E62C42D /* OFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OFB.swift; path = Sources/CryptoSwift/BlockMode/OFB.swift; sourceTree = "<group>"; };
+		986812388919CEF35F001AAB433B6D9C /* CTR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTR.swift; path = Sources/CryptoSwift/BlockMode/CTR.swift; sourceTree = "<group>"; };
+		99B6B7FB43D4B81CF6DEE097450C43C5 /* CryptoSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CryptoSwift-Info.plist"; sourceTree = "<group>"; };
+		9B5FBAD2E1291B9C5DAA562E77C3BEBB /* FastServerSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FastServerSocket.m; sourceTree = "<group>"; };
+		9D4C82469FC269B545B136D23A1E6F0C /* Pods-Ditto-DittoDev11-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ditto-DittoDev11-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A137D9DEED7A2F6A38240D558C30275E /* Pods-Ditto */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Ditto"; path = Pods_Ditto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A365814013006B34DF6CB53A43A554B0 /* FastSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FastSocket.h; sourceTree = "<group>"; };
+		A4105A915565EAF27A5F1BD81F7DE41D /* FastSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FastSocket-Info.plist"; sourceTree = "<group>"; };
+		A4DC31105853A23E2189CC67EFD2E98E /* Bit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bit.swift; path = Sources/CryptoSwift/Bit.swift; sourceTree = "<group>"; };
+		A57CF0128B65AEA91C0DBB1744F5890B /* FastSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastSocket-prefix.pch"; sourceTree = "<group>"; };
+		AA8D4A227E89F9522E7C18291DD8D3D4 /* Pods-Ditto-DittoDev11-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ditto-DittoDev11-Info.plist"; sourceTree = "<group>"; };
+		AB7C076DCBC4E3158B9042D7FF04031F /* Pods-Ditto-DittoDev11-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ditto-DittoDev11-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD7E5D481C345BE5AD512E6C3D65B3D7 /* UInt32+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt32+Extension.swift"; path = "Sources/CryptoSwift/UInt32+Extension.swift"; sourceTree = "<group>"; };
+		AEC79FF2A99DA900827EB754B5C07E26 /* Pods-Ditto-DittoQA */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Ditto-DittoQA"; path = Pods_Ditto_DittoQA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE20775D2AF59817D74AE233D3D2E16 /* Pods-Ditto-DittoQA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ditto-DittoQA-Info.plist"; sourceTree = "<group>"; };
+		B0E97AC9610B00C2A852FA83DF9D7475 /* FastSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastSocket.debug.xcconfig; sourceTree = "<group>"; };
+		B27DC8AE4A89458A31E05D0514B0CE9E /* Updatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Updatable.swift; path = Sources/CryptoSwift/Updatable.swift; sourceTree = "<group>"; };
+		B401B968D63056B1BDE389455D0145BB /* Pods-DittoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DittoTests-dummy.m"; sourceTree = "<group>"; };
+		B4383651B3C97ED070B56B34BD5EA6D3 /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/CryptoSwift/SHA1.swift; sourceTree = "<group>"; };
+		B7F52E04FE7F6F4F1EAA40E12B99978F /* CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBC.swift; path = Sources/CryptoSwift/BlockMode/CBC.swift; sourceTree = "<group>"; };
+		C2A269B9DD8184588206EF77E17D2F0B /* Blowfish.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blowfish.swift; path = Sources/CryptoSwift/Blowfish.swift; sourceTree = "<group>"; };
+		C554B179F60C6589AA2959D83AB748A5 /* Pods-Ditto-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ditto-frameworks.sh"; sourceTree = "<group>"; };
+		C6D6BC666AF407134D7AE8AFF572C1AA /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
+		C7854D46AA356B15529A65226791A755 /* Pods-DittoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DittoTests"; path = Pods_DittoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8061019B65FB0FCE5898D2FE473D441 /* FastServerSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FastServerSocket.h; sourceTree = "<group>"; };
+		C97E4F32D6990519327BA259B84D42DB /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
+		CAF33B31B38E5318607BA7F765DF4AEB /* DigestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DigestType.swift; path = Sources/CryptoSwift/DigestType.swift; sourceTree = "<group>"; };
+		CC12CF4390FA7A8AF2F519787BF868B8 /* HKDF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HKDF.swift; path = Sources/CryptoSwift/HKDF.swift; sourceTree = "<group>"; };
+		CC49E07C7B97E8EE8A78EEC4519757A6 /* PKCS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS5.swift; path = Sources/CryptoSwift/PKCS/PKCS5.swift; sourceTree = "<group>"; };
+		CC4B749D62BD67258E887819F3BD712B /* UInt16+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt16+Extension.swift"; path = "Sources/CryptoSwift/UInt16+Extension.swift"; sourceTree = "<group>"; };
+		CCED570A6E9C1DB996D51802D7A8E45C /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/CryptoSwift/Utils.swift; sourceTree = "<group>"; };
+		CEC7B36DDCCDB33B61880204BF3DF546 /* Pods-Ditto-DittoDev-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ditto-DittoDev-umbrella.h"; sourceTree = "<group>"; };
+		D06EB686436C3538AB53D1B7CAF1270F /* Array+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Array+Foundation.swift"; sourceTree = "<group>"; };
+		D6B0592FFCCBD4C0DF89948F8D7DF3E1 /* ChaCha20.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChaCha20.swift; path = Sources/CryptoSwift/ChaCha20.swift; sourceTree = "<group>"; };
+		D748D115D62A8CCEB4D62D30985F5361 /* ChaCha20+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ChaCha20+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
+		D7F40A73507303DEBDE0C0AAD0215101 /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/CryptoSwift/Array+Extension.swift"; sourceTree = "<group>"; };
+		D84FC3FC827BB355C17E62030222B11C /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Rabbit+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift"; sourceTree = "<group>"; };
+		DE1FA1CD99AE6BEECC579B738FEDE7ED /* UInt8+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt8+Extension.swift"; path = "Sources/CryptoSwift/UInt8+Extension.swift"; sourceTree = "<group>"; };
+		E0A5906CD9EE41E6EAD19E1045AC94B5 /* Pods-Ditto-DittoDev-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ditto-DittoDev-acknowledgements.plist"; sourceTree = "<group>"; };
+		E34114EA102DC34B1EAC812FF44DA152 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/CryptoSwift/HMAC.swift; sourceTree = "<group>"; };
+		E53292B3C8C801230DC3E760C1AB7E63 /* CryptoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-umbrella.h"; sourceTree = "<group>"; };
+		E7EC5A7E17DB36B4DC86913597F47522 /* SHA3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA3.swift; path = Sources/CryptoSwift/SHA3.swift; sourceTree = "<group>"; };
+		E9448C8080084EA5919ED7C0024B0774 /* SHA2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Sources/CryptoSwift/SHA2.swift; sourceTree = "<group>"; };
+		ECA455CCDF22F3D5AC921946704DFBD8 /* GCM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCM.swift; path = Sources/CryptoSwift/BlockMode/GCM.swift; sourceTree = "<group>"; };
+		EF4D15A89B67EE3EB4623CA19598E242 /* Pods-Ditto-DittoDev */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Ditto-DittoDev"; path = Pods_Ditto_DittoDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD1937BA952BA4779359FF788B54CD7 /* FastSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FastSocket-dummy.m"; sourceTree = "<group>"; };
+		F4E1A013130C24A0058518B32355905C /* Rabbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rabbit.swift; path = Sources/CryptoSwift/Rabbit.swift; sourceTree = "<group>"; };
+		F6B1B6CF3C8D15D0E6C8B30622343298 /* AEADChaCha20Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEADChaCha20Poly1305.swift; path = Sources/CryptoSwift/AEAD/AEADChaCha20Poly1305.swift; sourceTree = "<group>"; };
+		F7BD1E17552402E92B02A28951B7A839 /* FastSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FastSocket.m; sourceTree = "<group>"; };
+		F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoSwift; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB90E8FC81529B9DF9648C21C5E32E53 /* Pods-Ditto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ditto-umbrella.h"; sourceTree = "<group>"; };
+		FC02F3564285470B5DF182D1E2B3790F /* CryptoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CryptoSwift.modulemap; sourceTree = "<group>"; };
+		FEB67409B13774C8BF15D713647B33D4 /* FastSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FastSocket; path = FastSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB69BBD0A914D108181018DC93664BB /* Pods-Ditto-DittoDev-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ditto-DittoDev-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E8420A3486D141C79F5E6DED13E7A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B94F8D352EDA6EBAB0413375362E3DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3452993F5D0B0A3F2DDA7C0DA5CC1DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967B2FA4F76DC188640D3D933065811D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63835B2D0C874E2E88AFA6DA421D4AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA899D7C7A4CDBE32EBF5A057680D14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B71CDA52BF29DDBDD6271BE9BBFF6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227AE9C271ADBAC5D9DE49D964C2C55B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936E6B2D3A4ABBC287D09769BB162BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E79C6BA9F699C239D795B34C93A276 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0F7205AD66EADF8F2E71F9A2821BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772A763E2C1955491C8738E395B6F371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB193B951A25A85C4B905A93C6326076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06836B09C12FA3570B7321A273BBCDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070CC75DDE82DF5A08A76114B690E153 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFECAE4D5D9821FCF4E6BBBF6CAE00C2 /* Pods-Ditto */,
+				10743C78C9D4F9B245B578CD9D5CC53B /* Pods-Ditto-DittoDev */,
+				FF855716FEB11509C08DEE15D91CC93E /* Pods-Ditto-DittoDev11 */,
+				6938CEA3B47FFD8F5FB061098EA23F3A /* Pods-Ditto-DittoQA */,
+				6543E15DB0258D7D8B109B21891C2766 /* Pods-DittoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0BC9E4A2EA8D2FEAD2D523868AF71422 /* FastSocket */ = {
+			isa = PBXGroup;
+			children = (
+				C8061019B65FB0FCE5898D2FE473D441 /* FastServerSocket.h */,
+				9B5FBAD2E1291B9C5DAA562E77C3BEBB /* FastServerSocket.m */,
+				A365814013006B34DF6CB53A43A554B0 /* FastSocket.h */,
+				F7BD1E17552402E92B02A28951B7A839 /* FastSocket.m */,
+				225B3893CD01357D2C29C1A226A98995 /* Support Files */,
+			);
+			name = FastSocket;
+			path = FastSocket;
+			sourceTree = "<group>";
+		};
+		10743C78C9D4F9B245B578CD9D5CC53B /* Pods-Ditto-DittoDev */ = {
+			isa = PBXGroup;
+			children = (
+				90D5369BFAEC58BD0F4CCCE46601B6F7 /* Pods-Ditto-DittoDev.modulemap */,
+				FFB69BBD0A914D108181018DC93664BB /* Pods-Ditto-DittoDev-acknowledgements.markdown */,
+				E0A5906CD9EE41E6EAD19E1045AC94B5 /* Pods-Ditto-DittoDev-acknowledgements.plist */,
+				5034E3C971F95A9C6F85956BD46EC857 /* Pods-Ditto-DittoDev-dummy.m */,
+				386BC7E2096F01480DD3F9D421711555 /* Pods-Ditto-DittoDev-frameworks.sh */,
+				34F8FD48691CBA90E907249F91ACB0A7 /* Pods-Ditto-DittoDev-Info.plist */,
+				CEC7B36DDCCDB33B61880204BF3DF546 /* Pods-Ditto-DittoDev-umbrella.h */,
+				35B5893A8B5439A6958334F2AE3CC003 /* Pods-Ditto-DittoDev.debug.xcconfig */,
+				58441178075CA130EFDDC4C6859D986D /* Pods-Ditto-DittoDev.release.xcconfig */,
+			);
+			name = "Pods-Ditto-DittoDev";
+			path = "Target Support Files/Pods-Ditto-DittoDev";
+			sourceTree = "<group>";
+		};
+		1450E1FF5DAF862C8CECF0DF07736B78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift */,
+				FEB67409B13774C8BF15D713647B33D4 /* FastSocket */,
+				A137D9DEED7A2F6A38240D558C30275E /* Pods-Ditto */,
+				EF4D15A89B67EE3EB4623CA19598E242 /* Pods-Ditto-DittoDev */,
+				77B0D897CA19DB0BA41E58B6DE28B584 /* Pods-Ditto-DittoDev11 */,
+				AEC79FF2A99DA900827EB754B5C07E26 /* Pods-Ditto-DittoQA */,
+				C7854D46AA356B15529A65226791A755 /* Pods-DittoTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		225B3893CD01357D2C29C1A226A98995 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5945F884D0EFD5DE494563706E8F5092 /* FastSocket.modulemap */,
+				EFD1937BA952BA4779359FF788B54CD7 /* FastSocket-dummy.m */,
+				A4105A915565EAF27A5F1BD81F7DE41D /* FastSocket-Info.plist */,
+				A57CF0128B65AEA91C0DBB1744F5890B /* FastSocket-prefix.pch */,
+				266AC521C19C0AF791277CD47316218F /* FastSocket-umbrella.h */,
+				B0E97AC9610B00C2A852FA83DF9D7475 /* FastSocket.debug.xcconfig */,
+				1A4F98D11DFCFFF15118AE3B8F189A33 /* FastSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FastSocket";
+			sourceTree = "<group>";
+		};
+		54CACDA9CECA9F579BBF3BEC8699E639 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69C4F813B30CFB8DFFA2A77AD8261308 /* CryptoSwift */,
+				0BC9E4A2EA8D2FEAD2D523868AF71422 /* FastSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62617EDECAEDF7E136580CE27C043222 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC02F3564285470B5DF182D1E2B3790F /* CryptoSwift.modulemap */,
+				518BC1145456FC03B7720D47F9297A34 /* CryptoSwift-dummy.m */,
+				99B6B7FB43D4B81CF6DEE097450C43C5 /* CryptoSwift-Info.plist */,
+				72E262BAFAEDA414DE854ED031B60857 /* CryptoSwift-prefix.pch */,
+				E53292B3C8C801230DC3E760C1AB7E63 /* CryptoSwift-umbrella.h */,
+				113C678FFCD3E249E84FE3AE917B268E /* CryptoSwift.debug.xcconfig */,
+				595598A5C565E55F4A5A40887D27F04A /* CryptoSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CryptoSwift";
+			sourceTree = "<group>";
+		};
+		6543E15DB0258D7D8B109B21891C2766 /* Pods-DittoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2081B40CF50108F2F0CEAC1DF11FC7E9 /* Pods-DittoTests.modulemap */,
+				7BEB9F4AFBCF48C30BB784569E92E30E /* Pods-DittoTests-acknowledgements.markdown */,
+				92530DC7AF57A63CEB7946E2853126AD /* Pods-DittoTests-acknowledgements.plist */,
+				B401B968D63056B1BDE389455D0145BB /* Pods-DittoTests-dummy.m */,
+				6FA5CC42F3435AE0E3CCB3F7BA67C8BC /* Pods-DittoTests-Info.plist */,
+				2C41550881E18E9E99353ADF14F42AFE /* Pods-DittoTests-umbrella.h */,
+				426FF60B73804942B299ED2D6932AA45 /* Pods-DittoTests.debug.xcconfig */,
+				85DE862F44729876A9326F6EE7E20EFF /* Pods-DittoTests.release.xcconfig */,
+			);
+			name = "Pods-DittoTests";
+			path = "Target Support Files/Pods-DittoTests";
+			sourceTree = "<group>";
+		};
+		6938CEA3B47FFD8F5FB061098EA23F3A /* Pods-Ditto-DittoQA */ = {
+			isa = PBXGroup;
+			children = (
+				4AECA2028EE4654804FA04AD9EE8E7A0 /* Pods-Ditto-DittoQA.modulemap */,
+				1DD54EE8540FAFBAE4FF0150B1FC659D /* Pods-Ditto-DittoQA-acknowledgements.markdown */,
+				588BC5D12CA10A6007B8AA115813F609 /* Pods-Ditto-DittoQA-acknowledgements.plist */,
+				6B216410155C57C14EBA1C0A50F3CA95 /* Pods-Ditto-DittoQA-dummy.m */,
+				09AB854CE6660A5DBBCFAC1BC8D1C476 /* Pods-Ditto-DittoQA-frameworks.sh */,
+				AEE20775D2AF59817D74AE233D3D2E16 /* Pods-Ditto-DittoQA-Info.plist */,
+				52FA2262AAF4773277AEAEDF1655FC17 /* Pods-Ditto-DittoQA-umbrella.h */,
+				2D70D9C3EB4EEDD4824E5CB776112537 /* Pods-Ditto-DittoQA.debug.xcconfig */,
+				074EE9AE9EC90A117D862144D3D52478 /* Pods-Ditto-DittoQA.release.xcconfig */,
+			);
+			name = "Pods-Ditto-DittoQA";
+			path = "Target Support Files/Pods-Ditto-DittoQA";
+			sourceTree = "<group>";
+		};
+		69C4F813B30CFB8DFFA2A77AD8261308 /* CryptoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				0933D4712460C41716696054A341C5B4 /* AEAD.swift */,
+				F6B1B6CF3C8D15D0E6C8B30622343298 /* AEADChaCha20Poly1305.swift */,
+				C6D6BC666AF407134D7AE8AFF572C1AA /* AES.swift */,
+				1400B49DF8FD9661631CA191AB70DF12 /* AES+Foundation.swift */,
+				54D40618BA9C8D81F6B660C4D34E3F17 /* AES.Cryptors.swift */,
+				D7F40A73507303DEBDE0C0AAD0215101 /* Array+Extension.swift */,
+				D06EB686436C3538AB53D1B7CAF1270F /* Array+Foundation.swift */,
+				877613C1F210FC29B40DBBD6CCA2E437 /* Authenticator.swift */,
+				83E209C980BC984062EDFAEA6E6C18A6 /* BatchedCollection.swift */,
+				A4DC31105853A23E2189CC67EFD2E98E /* Bit.swift */,
+				143AD113EC1DC26BE060389BA84710F1 /* BlockCipher.swift */,
+				3D615C47FBA60DB71E26F9D7017DB8F1 /* BlockDecryptor.swift */,
+				2EF539D8DB8A03E81A9B6F415AE504F0 /* BlockEncryptor.swift */,
+				37E17D9A78890EE14016DB52DD772AE7 /* BlockMode.swift */,
+				3D7782FA874E146EF1EE4E18DF6DFB92 /* BlockModeOptions.swift */,
+				C2A269B9DD8184588206EF77E17D2F0B /* Blowfish.swift */,
+				5F46A866EBC03AF85C56FF32091637D5 /* Blowfish+Foundation.swift */,
+				B7F52E04FE7F6F4F1EAA40E12B99978F /* CBC.swift */,
+				58CCD9AD257764A8E539E78A44C966FF /* CBCMAC.swift */,
+				1AD4BDBEE03952DD38AA68379CD56B55 /* CCM.swift */,
+				6F39B9BEE7BE28E88768D7DF8D9B19F3 /* CFB.swift */,
+				D6B0592FFCCBD4C0DF89948F8D7DF3E1 /* ChaCha20.swift */,
+				D748D115D62A8CCEB4D62D30985F5361 /* ChaCha20+Foundation.swift */,
+				8F8BAF84EA42D1223980312F4C919F44 /* Checksum.swift */,
+				35FD9F41991C1260C9A7A8A30838404F /* Cipher.swift */,
+				7006FBE3E9E0414A05D2032B0D02F401 /* CipherModeWorker.swift */,
+				29C132BDE98A273257E4DC07EBCAC333 /* CMAC.swift */,
+				0A3E54A662944AA40005F43B5615D703 /* Collection+Extension.swift */,
+				70F92CDEE96C1859DED50AE485EF2920 /* CompactMap.swift */,
+				76B75130F044CAF142E88C6083A63A45 /* Cryptor.swift */,
+				C97E4F32D6990519327BA259B84D42DB /* Cryptors.swift */,
+				986812388919CEF35F001AAB433B6D9C /* CTR.swift */,
+				26805A110D17D9166D8C14B44008CCAB /* Data+Extension.swift */,
+				338FED91A8423AAFC5589C9831A3783D /* Digest.swift */,
+				CAF33B31B38E5318607BA7F765DF4AEB /* DigestType.swift */,
+				4B6FCAA49D85AD1E97BD531EDC293A1A /* ECB.swift */,
+				ECA455CCDF22F3D5AC921946704DFBD8 /* GCM.swift */,
+				293DF16C71080065553504E7902F2D8A /* Generics.swift */,
+				CC12CF4390FA7A8AF2F519787BF868B8 /* HKDF.swift */,
+				E34114EA102DC34B1EAC812FF44DA152 /* HMAC.swift */,
+				1232353F9D1739CF41DA1019C7352AC8 /* HMAC+Foundation.swift */,
+				8F105938B3FFCC15EAFDA64B3AD19F3B /* Int+Extension.swift */,
+				66FE230136FE7540621E82766B52AE9F /* ISO78164Padding.swift */,
+				6385DF42E325F88819A4C86E7BF3D752 /* MD5.swift */,
+				616336B3E91FE77BB3EC367AAF0ACE0C /* NoPadding.swift */,
+				1D34B080A1FFC12A04BFA2090EA23EE7 /* OCB.swift */,
+				95B706F7365759340256961D2E62C42D /* OFB.swift */,
+				5C9C2C1352B20AF8C5737F3CC3AE562B /* Operators.swift */,
+				477409E6195C73BF48F8AF979C276F58 /* Padding.swift */,
+				06E483D3510FFD801EFED1035F0B9D1A /* PBKDF1.swift */,
+				52E0AB02743DB47B09C5C6F76075CB4A /* PBKDF2.swift */,
+				483DCEBC4540077F2922CA5FDA735873 /* PCBC.swift */,
+				CC49E07C7B97E8EE8A78EEC4519757A6 /* PKCS5.swift */,
+				010DED591BDBFC54CDC2EBCA839518DC /* PKCS7.swift */,
+				94A7D3C2330A075C8C921431CE1C77B8 /* PKCS7Padding.swift */,
+				0DD79A963206A753818C02E244C7625F /* Poly1305.swift */,
+				F4E1A013130C24A0058518B32355905C /* Rabbit.swift */,
+				D84FC3FC827BB355C17E62030222B11C /* Rabbit+Foundation.swift */,
+				7D6075BB89DF2113FEAE25ADB3D70911 /* Scrypt.swift */,
+				02DE25842A6E76AA648098A3953EEA76 /* SecureBytes.swift */,
+				B4383651B3C97ED070B56B34BD5EA6D3 /* SHA1.swift */,
+				E9448C8080084EA5919ED7C0024B0774 /* SHA2.swift */,
+				E7EC5A7E17DB36B4DC86913597F47522 /* SHA3.swift */,
+				563B7FCAD3F42051AB7327E81E7C2D97 /* StreamDecryptor.swift */,
+				028E3ED077957808FE835E7F2885972E /* StreamEncryptor.swift */,
+				04BE17440A25291D9A58866168E34920 /* String+Extension.swift */,
+				3176058CAF588039738319E6D5E8AD2C /* String+FoundationExtension.swift */,
+				51C2E63CAC9DFCB88EB7F213C890B3BC /* UInt128.swift */,
+				CC4B749D62BD67258E887819F3BD712B /* UInt16+Extension.swift */,
+				AD7E5D481C345BE5AD512E6C3D65B3D7 /* UInt32+Extension.swift */,
+				7D8FB7EC3F43D630A81A0D07322DF6BE /* UInt64+Extension.swift */,
+				DE1FA1CD99AE6BEECC579B738FEDE7ED /* UInt8+Extension.swift */,
+				B27DC8AE4A89458A31E05D0514B0CE9E /* Updatable.swift */,
+				CCED570A6E9C1DB996D51802D7A8E45C /* Utils.swift */,
+				0A31780760100D8D97BA6061E8B68AD0 /* Utils+Foundation.swift */,
+				5D1ED93B0D205593387954EA519FA2CC /* ZeroPadding.swift */,
+				62617EDECAEDF7E136580CE27C043222 /* Support Files */,
+			);
+			name = CryptoSwift;
+			path = CryptoSwift;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				54CACDA9CECA9F579BBF3BEC8699E639 /* Pods */,
+				1450E1FF5DAF862C8CECF0DF07736B78 /* Products */,
+				070CC75DDE82DF5A08A76114B690E153 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFECAE4D5D9821FCF4E6BBBF6CAE00C2 /* Pods-Ditto */ = {
+			isa = PBXGroup;
+			children = (
+				139398C3DA9419529C0B3E987BF659B4 /* Pods-Ditto.modulemap */,
+				12F660BB51013EA2E0B297BCD5C6656D /* Pods-Ditto-acknowledgements.markdown */,
+				79FF2AC8E362E38A87A31F86B61EA61E /* Pods-Ditto-acknowledgements.plist */,
+				754862663B854C5B9102BB706575767E /* Pods-Ditto-dummy.m */,
+				C554B179F60C6589AA2959D83AB748A5 /* Pods-Ditto-frameworks.sh */,
+				8951D14009D86CF5B3C52DBB19CD1231 /* Pods-Ditto-Info.plist */,
+				FB90E8FC81529B9DF9648C21C5E32E53 /* Pods-Ditto-umbrella.h */,
+				2FC190645E504D9BAA8717121D87CD43 /* Pods-Ditto.debug.xcconfig */,
+				2F84FB815B184DEE7A1B609F85D0B0B0 /* Pods-Ditto.release.xcconfig */,
+			);
+			name = "Pods-Ditto";
+			path = "Target Support Files/Pods-Ditto";
+			sourceTree = "<group>";
+		};
+		FF855716FEB11509C08DEE15D91CC93E /* Pods-Ditto-DittoDev11 */ = {
+			isa = PBXGroup;
+			children = (
+				77B7E7FDE2F233B06FB0D7060BFBABC8 /* Pods-Ditto-DittoDev11.modulemap */,
+				9D4C82469FC269B545B136D23A1E6F0C /* Pods-Ditto-DittoDev11-acknowledgements.markdown */,
+				AB7C076DCBC4E3158B9042D7FF04031F /* Pods-Ditto-DittoDev11-acknowledgements.plist */,
+				80057DED8D02602BC7AE447EF019301D /* Pods-Ditto-DittoDev11-dummy.m */,
+				2DED556D59163DDC78D6F2522528120D /* Pods-Ditto-DittoDev11-frameworks.sh */,
+				AA8D4A227E89F9522E7C18291DD8D3D4 /* Pods-Ditto-DittoDev11-Info.plist */,
+				5471EC00FF2DC9470EE8465E2974362C /* Pods-Ditto-DittoDev11-umbrella.h */,
+				64C28D4CAC14911FD767B1961D8ACF14 /* Pods-Ditto-DittoDev11.debug.xcconfig */,
+				5B3B888028D83D49FB0641CA09FF4BAD /* Pods-Ditto-DittoDev11.release.xcconfig */,
+			);
+			name = "Pods-Ditto-DittoDev11";
+			path = "Target Support Files/Pods-Ditto-DittoDev11";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A1D87522E3F70679FC89A8478F6AD62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F7EFA9EB600164E5B37ED89916D530 /* Pods-Ditto-DittoDev11-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A364056A126CB23DCD6E61366365F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EFDF8D23691F213A7B72A0D000E35B /* Pods-DittoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932DCFA9467219868D80014993E0391C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED1F67CF8CC68F6A0A81FFF79FB3CA3 /* FastServerSocket.h in Headers */,
+				581F19117AA62A212650C2D2500CDAC1 /* FastSocket.h in Headers */,
+				9C198A5D7A9D5D8C42D59E87AD5539C9 /* FastSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22407CEB74CF2047BFDF55FEC655378 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C31FF836F1A641A5EDFC527F7027DE4 /* Pods-Ditto-DittoDev-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D348F5D521CD2052D7575926F1B03C39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF11119435637A92859CCBFB173A58C /* Pods-Ditto-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07F2EFA385D948C567DD2FF983A6E5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCA32D5B494867B27A64CD3D1F7684F /* CryptoSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF34CFF93E3C8CD0D26556D7687A55DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5629AE35216BDA2CA87755D4388A9D5 /* Pods-Ditto-DittoQA-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4054C8B663EEBCB63AC8BD524B2AA90F /* Pods-Ditto-DittoDev11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57A8930FE007426C04F90300417F671 /* Build configuration list for PBXNativeTarget "Pods-Ditto-DittoDev11" */;
+			buildPhases = (
+				3A1D87522E3F70679FC89A8478F6AD62 /* Headers */,
+				69E0DA2A22B01B168661A6DF39E62153 /* Sources */,
+				63835B2D0C874E2E88AFA6DA421D4AFB /* Frameworks */,
+				3843C78DBEC33B8B33C6A0D4AE09FBE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13495A3D6A5A45B4909CA304C8CB247B /* PBXTargetDependency */,
+				8A752CA7E344BA365E1B587402FE1829 /* PBXTargetDependency */,
+			);
+			name = "Pods-Ditto-DittoDev11";
+			productName = Pods_Ditto_DittoDev11;
+			productReference = 77B0D897CA19DB0BA41E58B6DE28B584 /* Pods-Ditto-DittoDev11 */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B54CBA9C5F2FC24BEA16197D4992804 /* FastSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5583752F400E2EBA6FFA1310CB7D408B /* Build configuration list for PBXNativeTarget "FastSocket" */;
+			buildPhases = (
+				932DCFA9467219868D80014993E0391C /* Headers */,
+				C922898C439B9FDEF27CC9A9CBA15C79 /* Sources */,
+				936E6B2D3A4ABBC287D09769BB162BE7 /* Frameworks */,
+				8BCC015CBBBED45946785D19317511E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastSocket;
+			productName = FastSocket;
+			productReference = FEB67409B13774C8BF15D713647B33D4 /* FastSocket */;
+			productType = "com.apple.product-type.framework";
+		};
+		7133E90424CF63000C9117E1DE223C5A /* Pods-Ditto-DittoQA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C70867A7B2F10E83C004E3044FC4452 /* Build configuration list for PBXNativeTarget "Pods-Ditto-DittoQA" */;
+			buildPhases = (
+				FF34CFF93E3C8CD0D26556D7687A55DC /* Headers */,
+				C70F310583514069A86F6E58B3208258 /* Sources */,
+				8B71CDA52BF29DDBDD6271BE9BBFF6FE /* Frameworks */,
+				67F3E3BE6F42C093F02C121BAD183C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37F35BCF944F0FD117B971855B2237DE /* PBXTargetDependency */,
+				05EECB0C54627046626970763A5D385F /* PBXTargetDependency */,
+			);
+			name = "Pods-Ditto-DittoQA";
+			productName = Pods_Ditto_DittoQA;
+			productReference = AEC79FF2A99DA900827EB754B5C07E26 /* Pods-Ditto-DittoQA */;
+			productType = "com.apple.product-type.framework";
+		};
+		99313990C1D76A6D1D017868B6975CC8 /* CryptoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C9656AA073AA9AB8ADD823F197F152 /* Build configuration list for PBXNativeTarget "CryptoSwift" */;
+			buildPhases = (
+				E07F2EFA385D948C567DD2FF983A6E5F /* Headers */,
+				6764C6A975D632E7C738346446EB1335 /* Sources */,
+				3452993F5D0B0A3F2DDA7C0DA5CC1DD4 /* Frameworks */,
+				0BC29F003C891A713EC7CEBF3CF2E6F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoSwift;
+			productName = CryptoSwift;
+			productReference = F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA915665F26AE1568082B25499AFE7F1 /* Pods-DittoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F6F97124A5225514D10142592F76D6 /* Build configuration list for PBXNativeTarget "Pods-DittoTests" */;
+			buildPhases = (
+				84A364056A126CB23DCD6E61366365F9 /* Headers */,
+				87225317C44758516EC5EF259CDDAF11 /* Sources */,
+				2E8420A3486D141C79F5E6DED13E7A96 /* Frameworks */,
+				9FF5D63C8806E60F7A9ED3C721B959D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0D694C0F5912C3AFA15E77071CB8A5A /* PBXTargetDependency */,
+			);
+			name = "Pods-DittoTests";
+			productName = Pods_DittoTests;
+			productReference = C7854D46AA356B15529A65226791A755 /* Pods-DittoTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCE8238727AFDB3955A9145894F81B28 /* Pods-Ditto-DittoDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58378BD98B195C5EAFF42408C5706415 /* Build configuration list for PBXNativeTarget "Pods-Ditto-DittoDev" */;
+			buildPhases = (
+				B22407CEB74CF2047BFDF55FEC655378 /* Headers */,
+				338526F697D2889EAA5A8F0562AE0707 /* Sources */,
+				EB193B951A25A85C4B905A93C6326076 /* Frameworks */,
+				7330FA33AD2487CADFB7EB2BF4DE66EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18B175F366EB8EED75960D82DA1E3D7 /* PBXTargetDependency */,
+				482F1824C98B60EFCBDD9DC629C9974D /* PBXTargetDependency */,
+			);
+			name = "Pods-Ditto-DittoDev";
+			productName = Pods_Ditto_DittoDev;
+			productReference = EF4D15A89B67EE3EB4623CA19598E242 /* Pods-Ditto-DittoDev */;
+			productType = "com.apple.product-type.framework";
+		};
+		D51DB3E6314F689EA16830F1070E6B15 /* Pods-Ditto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC05689B9597EC294CA4B9AA334E1724 /* Build configuration list for PBXNativeTarget "Pods-Ditto" */;
+			buildPhases = (
+				D348F5D521CD2052D7575926F1B03C39 /* Headers */,
+				AE42765F90C3B9205236C7CB3329611F /* Sources */,
+				DC0F7205AD66EADF8F2E71F9A2821BA4 /* Frameworks */,
+				3B712D86F2EA25083DB3671A7A91C056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E663A9383EE0689FBD2742406B5B105 /* PBXTargetDependency */,
+				2422675BE28CFCD89B35DE74DE11D5F7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Ditto";
+			productName = Pods_Ditto;
+			productReference = A137D9DEED7A2F6A38240D558C30275E /* Pods-Ditto */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1450E1FF5DAF862C8CECF0DF07736B78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99313990C1D76A6D1D017868B6975CC8 /* CryptoSwift */,
+				4B54CBA9C5F2FC24BEA16197D4992804 /* FastSocket */,
+				D51DB3E6314F689EA16830F1070E6B15 /* Pods-Ditto */,
+				BCE8238727AFDB3955A9145894F81B28 /* Pods-Ditto-DittoDev */,
+				4054C8B663EEBCB63AC8BD524B2AA90F /* Pods-Ditto-DittoDev11 */,
+				7133E90424CF63000C9117E1DE223C5A /* Pods-Ditto-DittoQA */,
+				BA915665F26AE1568082B25499AFE7F1 /* Pods-DittoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BC29F003C891A713EC7CEBF3CF2E6F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3843C78DBEC33B8B33C6A0D4AE09FBE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B712D86F2EA25083DB3671A7A91C056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F3E3BE6F42C093F02C121BAD183C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7330FA33AD2487CADFB7EB2BF4DE66EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCC015CBBBED45946785D19317511E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF5D63C8806E60F7A9ED3C721B959D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		338526F697D2889EAA5A8F0562AE0707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7EBA5181B60708942BFE8C84902F49 /* Pods-Ditto-DittoDev-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6764C6A975D632E7C738346446EB1335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9382403271DA6B228A8B5E7DF9F0B39A /* AEAD.swift in Sources */,
+				93A9720F6ADCF68E02A775F9618BE4EA /* AEADChaCha20Poly1305.swift in Sources */,
+				987B4B3CE0C700A223D13A8008BEBBD9 /* AES.swift in Sources */,
+				6B7B9ACD074B340EE5FF4BB635DE2D6C /* AES+Foundation.swift in Sources */,
+				A1CD7E842EFD036C7E18B100CCC2212F /* AES.Cryptors.swift in Sources */,
+				212602EFD460AE8FD599EC590C46718D /* Array+Extension.swift in Sources */,
+				561AF3F0BF7080D7CC6A7D3483EAB49C /* Array+Foundation.swift in Sources */,
+				04B867EE5589C20DC463BF99F56F4EFA /* Authenticator.swift in Sources */,
+				97C653A5B0F9397A7003DA4FD34C638C /* BatchedCollection.swift in Sources */,
+				04658A74CE30C59DE584AD6E3BEDB4FF /* Bit.swift in Sources */,
+				4ECC439B8EF9419E303FC3F66A038921 /* BlockCipher.swift in Sources */,
+				4065884F49B7A5C3D9FB8C729617DD9D /* BlockDecryptor.swift in Sources */,
+				5A05632174962E954E091F3B2D3A291A /* BlockEncryptor.swift in Sources */,
+				3929A86875D5EBC9403161D16C03FD79 /* BlockMode.swift in Sources */,
+				5F2FA8DC13D544D61DFAAFC903D2754E /* BlockModeOptions.swift in Sources */,
+				1059634A5C8EC7B8E87069E413867A71 /* Blowfish.swift in Sources */,
+				901BC854CB140B3AA3612444E9FD6149 /* Blowfish+Foundation.swift in Sources */,
+				6A824F720D5290CFB2FF016A8889A5CF /* CBC.swift in Sources */,
+				C728BD08903EBBBD63700D50A3DD2DE2 /* CBCMAC.swift in Sources */,
+				310A89F2EA3124C5D67A47E32EC2B51D /* CCM.swift in Sources */,
+				4D96B9AE495D5F891962CF4F40E70F75 /* CFB.swift in Sources */,
+				B17C7C47556932AEF97471A30817A6ED /* ChaCha20.swift in Sources */,
+				CDFE1DC6AFB0497173F839577143DDEA /* ChaCha20+Foundation.swift in Sources */,
+				AAD31997B4B61AB014E408B9978845CA /* Checksum.swift in Sources */,
+				E9C34608A4E18AD81F4C28517877F966 /* Cipher.swift in Sources */,
+				7A7858231865B3FBFC9005CFA614F4D5 /* CipherModeWorker.swift in Sources */,
+				7B411945CDA82190B40DAC92344A838B /* CMAC.swift in Sources */,
+				500EE7EF50335F140760427E40B38843 /* Collection+Extension.swift in Sources */,
+				9D1CB738AE0C77D154714C0DEDF583A2 /* CompactMap.swift in Sources */,
+				2719C0F3AC7CCD3E7E72D8A9F508F67E /* Cryptor.swift in Sources */,
+				686BA97778ABDC0CC1C2AF826B700C7F /* Cryptors.swift in Sources */,
+				93E92A3C214617A5A36B74B56E0414AD /* CryptoSwift-dummy.m in Sources */,
+				C22DD8B82B4FFDF39A2DA28DCFB51442 /* CTR.swift in Sources */,
+				47FB0BD95EFA7D3CD4F828CC6997E03F /* Data+Extension.swift in Sources */,
+				7707E8B21F4D74EC48166EDE53174F43 /* Digest.swift in Sources */,
+				7C2A48CA50B833F4EBF03AC20C6CDB2E /* DigestType.swift in Sources */,
+				461042FD42CA459351B89DD3F00BB4F7 /* ECB.swift in Sources */,
+				AC98B38330D10E1A93BE3B5869038B05 /* GCM.swift in Sources */,
+				11ED743FBDF147C7A89A48E19F3BE288 /* Generics.swift in Sources */,
+				BFD0B531181FC61B5352B336D396DE3F /* HKDF.swift in Sources */,
+				83591014D94128B665EFBA2C0C170B47 /* HMAC.swift in Sources */,
+				8256F0F33F568E1AAC5652F060B72126 /* HMAC+Foundation.swift in Sources */,
+				80EE423644BA08777D368489291A2BC4 /* Int+Extension.swift in Sources */,
+				E415EC15D952FE790FD19C5978D8CA3F /* ISO78164Padding.swift in Sources */,
+				3D09ED5D8FF51661EB932718D0976938 /* MD5.swift in Sources */,
+				D1F1F43E3FC2809611B009B0B1763455 /* NoPadding.swift in Sources */,
+				A1201F2C4EED4004FF30561447FDCD08 /* OCB.swift in Sources */,
+				74B709B2AA2FC4EC703529CC28F1EBA3 /* OFB.swift in Sources */,
+				938DDC79F508AD3113936B5122FB5EA8 /* Operators.swift in Sources */,
+				AC01A26DF9B929D914F3CCF7CDAA18C1 /* Padding.swift in Sources */,
+				F397035F9361336DD834408274C1F350 /* PBKDF1.swift in Sources */,
+				E400B760BE204AB7991A2541312EB6EC /* PBKDF2.swift in Sources */,
+				A56204A6BF427320CA3AB92186EE4593 /* PCBC.swift in Sources */,
+				1760D67C7C6C83924E941BD46719DC15 /* PKCS5.swift in Sources */,
+				F65D53E1F33BC677B71655CBF4EC859D /* PKCS7.swift in Sources */,
+				F3E76FB6D7B21EDDB734FE70C6DD2624 /* PKCS7Padding.swift in Sources */,
+				CCA7BBBB19CA76ED855E0BAEE336EBC6 /* Poly1305.swift in Sources */,
+				E5D7379C5A72FB32783E543152BF09D0 /* Rabbit.swift in Sources */,
+				C6933986857687582F7839318BAD87CA /* Rabbit+Foundation.swift in Sources */,
+				DC6C76B6D319311833F0835F7D0F708A /* Scrypt.swift in Sources */,
+				092AB6E4AC3E39C9BB32E42809A7CB53 /* SecureBytes.swift in Sources */,
+				34F8A9246E28BAF242E172ADB85CA15A /* SHA1.swift in Sources */,
+				66D75F91A23467F5EAF457C5979C3D05 /* SHA2.swift in Sources */,
+				F5C5C122DB49A8788F2D18AECA033EDE /* SHA3.swift in Sources */,
+				FB015B789A957E6666137FB84506ABDE /* StreamDecryptor.swift in Sources */,
+				F3C746D9E64CE6F2633F88941F642857 /* StreamEncryptor.swift in Sources */,
+				FCFD32EEF7379FE7DF74414D3BB5F17C /* String+Extension.swift in Sources */,
+				B7C6C2B193C179BAEBF6DC6363E4F4B2 /* String+FoundationExtension.swift in Sources */,
+				6E14EE4850E006545951098AAFD6F51B /* UInt128.swift in Sources */,
+				B9BDD478B6C7DBC7A507CBAE991ED1E4 /* UInt16+Extension.swift in Sources */,
+				3863496FC2A02B720B4C54A0D341F7D0 /* UInt32+Extension.swift in Sources */,
+				2737386E7001B751585CBA3F695FED70 /* UInt64+Extension.swift in Sources */,
+				F919CB1CC82A21ECDE362201FFC8FF0D /* UInt8+Extension.swift in Sources */,
+				8FD3E98BEBA6046512F8BAFA25B7AEDE /* Updatable.swift in Sources */,
+				62B30148720B708C6643AA8948D296B9 /* Utils.swift in Sources */,
+				7B1E4782B8200013E1CCAA1CAE33A027 /* Utils+Foundation.swift in Sources */,
+				E57EA7C0193D2AE5751EEA8F8238C3C3 /* ZeroPadding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E0DA2A22B01B168661A6DF39E62153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98FD6C665591D0FC084FC6A9DD385E9 /* Pods-Ditto-DittoDev11-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87225317C44758516EC5EF259CDDAF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628AF982D5922FBA77D8B13918B3EB05 /* Pods-DittoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE42765F90C3B9205236C7CB3329611F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57299B311BC06B6ADA3B6F7B971B625 /* Pods-Ditto-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70F310583514069A86F6E58B3208258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B255C5DD4C1DF84472FE44BE12F86293 /* Pods-Ditto-DittoQA-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C922898C439B9FDEF27CC9A9CBA15C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361D72B5E02C81B057EEA7C4E8A69F95 /* FastServerSocket.m in Sources */,
+				702F0327A31EA55E54A47C8A7564BB8C /* FastSocket.m in Sources */,
+				B724F46B23406271337E4FC1465E4BFE /* FastSocket-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05EECB0C54627046626970763A5D385F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FastSocket;
+			target = 4B54CBA9C5F2FC24BEA16197D4992804 /* FastSocket */;
+			targetProxy = 33EE41B89C24676D8658A5989B184B5E /* PBXContainerItemProxy */;
+		};
+		13495A3D6A5A45B4909CA304C8CB247B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoSwift;
+			target = 99313990C1D76A6D1D017868B6975CC8 /* CryptoSwift */;
+			targetProxy = 89A865C6768A10DC84101F7A1F253CBB /* PBXContainerItemProxy */;
+		};
+		1E663A9383EE0689FBD2742406B5B105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoSwift;
+			target = 99313990C1D76A6D1D017868B6975CC8 /* CryptoSwift */;
+			targetProxy = B3BC9B2C25DB372B913A6E040B9CBA3D /* PBXContainerItemProxy */;
+		};
+		2422675BE28CFCD89B35DE74DE11D5F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FastSocket;
+			target = 4B54CBA9C5F2FC24BEA16197D4992804 /* FastSocket */;
+			targetProxy = B790EC2376492CE21ABADC4A07C139F9 /* PBXContainerItemProxy */;
+		};
+		37F35BCF944F0FD117B971855B2237DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoSwift;
+			target = 99313990C1D76A6D1D017868B6975CC8 /* CryptoSwift */;
+			targetProxy = 26CB9509B825D03312451D5DB85F1E74 /* PBXContainerItemProxy */;
+		};
+		482F1824C98B60EFCBDD9DC629C9974D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FastSocket;
+			target = 4B54CBA9C5F2FC24BEA16197D4992804 /* FastSocket */;
+			targetProxy = 42A7181C1C4463B3C6F5454E53F2C6BE /* PBXContainerItemProxy */;
+		};
+		8A752CA7E344BA365E1B587402FE1829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FastSocket;
+			target = 4B54CBA9C5F2FC24BEA16197D4992804 /* FastSocket */;
+			targetProxy = CF2D3053D9F47DB4DE58198EAF7634C5 /* PBXContainerItemProxy */;
+		};
+		B0D694C0F5912C3AFA15E77071CB8A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Ditto";
+			target = D51DB3E6314F689EA16830F1070E6B15 /* Pods-Ditto */;
+			targetProxy = E87FEA3EFC3C61685FD1224EF7E9C59F /* PBXContainerItemProxy */;
+		};
+		F18B175F366EB8EED75960D82DA1E3D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoSwift;
+			target = 99313990C1D76A6D1D017868B6975CC8 /* CryptoSwift */;
+			targetProxy = 30FC3412AF867E11DCC31D54CB50ECD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F00526106C8593E87DA5B24D2E07798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F84FB815B184DEE7A1B609F85D0B0B0 /* Pods-Ditto.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ditto/Pods-Ditto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ditto/Pods-Ditto.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B161E6D1A91ACF261E04C55EC1198FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58441178075CA130EFDDC4C6859D986D /* Pods-Ditto-DittoDev.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ditto-DittoDev/Pods-Ditto-DittoDev-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ditto-DittoDev/Pods-Ditto-DittoDev.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C78588C0376D8E3A6AFD548FF09800E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C28D4CAC14911FD767B1961D8ACF14 /* Pods-Ditto-DittoDev11.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ditto-DittoDev11/Pods-Ditto-DittoDev11-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ditto-DittoDev11/Pods-Ditto-DittoDev11.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31C9EB03B48BFBD6A18904EB7691DC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D70D9C3EB4EEDD4824E5CB776112537 /* Pods-Ditto-DittoQA.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ditto-DittoQA/Pods-Ditto-DittoQA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ditto-DittoQA/Pods-Ditto-DittoQA.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		543D581F60D9153594FA938A0287BE8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113C678FFCD3E249E84FE3AE917B268E /* CryptoSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoSwift/CryptoSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				PRODUCT_MODULE_NAME = CryptoSwift;
+				PRODUCT_NAME = CryptoSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FD88188B850F51A25D7C0281BD6DF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC190645E504D9BAA8717121D87CD43 /* Pods-Ditto.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ditto/Pods-Ditto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ditto/Pods-Ditto.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84CF501904912F4B8950D024CF796640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426FF60B73804942B299ED2D6932AA45 /* Pods-DittoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DittoTests/Pods-DittoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DittoTests/Pods-DittoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9B1F33106F1905136F8BEA84ED0B6B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4F98D11DFCFFF15118AE3B8F189A33 /* FastSocket.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FastSocket/FastSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FastSocket/FastSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FastSocket/FastSocket.modulemap";
+				PRODUCT_MODULE_NAME = FastSocket;
+				PRODUCT_NAME = FastSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A86EE23417A1A1372AA1828C5D835F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E97AC9610B00C2A852FA83DF9D7475 /* FastSocket.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FastSocket/FastSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FastSocket/FastSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FastSocket/FastSocket.modulemap";
+				PRODUCT_MODULE_NAME = FastSocket;
+				PRODUCT_NAME = FastSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CED8A6C48B1979BB4A34028800842C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074EE9AE9EC90A117D862144D3D52478 /* Pods-Ditto-DittoQA.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ditto-DittoQA/Pods-Ditto-DittoQA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ditto-DittoQA/Pods-Ditto-DittoQA.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D426A15EAA1B089488C703E661BC786F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595598A5C565E55F4A5A40887D27F04A /* CryptoSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoSwift/CryptoSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				PRODUCT_MODULE_NAME = CryptoSwift;
+				PRODUCT_NAME = CryptoSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D44330BC2DEA36F5BB4D65A1ABB4B00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B3B888028D83D49FB0641CA09FF4BAD /* Pods-Ditto-DittoDev11.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ditto-DittoDev11/Pods-Ditto-DittoDev11-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ditto-DittoDev11/Pods-Ditto-DittoDev11.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F418396FC6220A425A4D822B81216082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85DE862F44729876A9326F6EE7E20EFF /* Pods-DittoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DittoTests/Pods-DittoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DittoTests/Pods-DittoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC7AF7428808B65198C3A2B1D32E35B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B5893A8B5439A6958334F2AE3CC003 /* Pods-Ditto-DittoDev.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ditto-DittoDev/Pods-Ditto-DittoDev-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ditto-DittoDev/Pods-Ditto-DittoDev.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25C9656AA073AA9AB8ADD823F197F152 /* Build configuration list for PBXNativeTarget "CryptoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543D581F60D9153594FA938A0287BE8B /* Debug */,
+				D426A15EAA1B089488C703E661BC786F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C70867A7B2F10E83C004E3044FC4452 /* Build configuration list for PBXNativeTarget "Pods-Ditto-DittoQA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C9EB03B48BFBD6A18904EB7691DC28 /* Debug */,
+				CED8A6C48B1979BB4A34028800842C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5583752F400E2EBA6FFA1310CB7D408B /* Build configuration list for PBXNativeTarget "FastSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86EE23417A1A1372AA1828C5D835F49 /* Debug */,
+				9B1F33106F1905136F8BEA84ED0B6B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58378BD98B195C5EAFF42408C5706415 /* Build configuration list for PBXNativeTarget "Pods-Ditto-DittoDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7AF7428808B65198C3A2B1D32E35B8 /* Debug */,
+				1B161E6D1A91ACF261E04C55EC1198FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F6F97124A5225514D10142592F76D6 /* Build configuration list for PBXNativeTarget "Pods-DittoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CF501904912F4B8950D024CF796640 /* Debug */,
+				F418396FC6220A425A4D822B81216082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC05689B9597EC294CA4B9AA334E1724 /* Build configuration list for PBXNativeTarget "Pods-Ditto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD88188B850F51A25D7C0281BD6DF71 /* Debug */,
+				0F00526106C8593E87DA5B24D2E07798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57A8930FE007426C04F90300417F671 /* Build configuration list for PBXNativeTarget "Pods-Ditto-DittoDev11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C78588C0376D8E3A6AFD548FF09800E /* Debug */,
+				D44330BC2DEA36F5BB4D65A1ABB4B00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

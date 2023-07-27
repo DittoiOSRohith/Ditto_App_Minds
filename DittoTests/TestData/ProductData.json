@@ -1,0 +1,150 @@
+{
+    "data": [
+        {
+            "type": "product",
+            "id": "ebb0647f-7e79-4ee6-8e3e-0a0906093988",
+            "name": "Anker 6ft / 1.8m Nylon Braided Tangle-Free Micro USB Cable with Gold-Plated Connectors for Android, Samsung, HTC, Nokia, Sony and More",
+            "slug": "anker-braided-tangle-free-gold-plated-connectors-red",
+            "sku": "B00SUX2IPE",
+            "manage_stock": true,
+            "description": "<ul><li>The Anker Advantage: Join the 10 million+ powered by Amazon's leading charging brand.</li><li>High Speed: Charges up to 7% faster than standard cables and transfers data at 480Mbps via USB 2.0 (backwards compatible).</li><li>Extra Long, Extra Durable: 6ft tangle-free nylon cord has a 4000+ bend lifespan several times longer than original device cables.</li><li>Perfect Fit: Compact, 24K gold-plated connector heads resist heat and corrosion and fit most cases.</li><li>What You Get: Anker 6ft Nylon Braided Micro USB Cable, our fan-favorite 18-month warranty and friendly customer service. Note: This Micro USB cable does NOT fit iPhones, iPads and other Apple products.</li></ul>",
+            "price": [
+                {
+                    "amount": 1999,
+                    "currency": "GBP",
+                    "includes_tax": true
+                }
+            ],
+            "status": "live",
+            "commodity_type": "physical",
+            "meta": {
+                "timestamps": {
+                    "created_at": "2017-09-21T15:46:22+00:00",
+                    "updated_at": "2019-05-17T14:27:17+00:00"
+                },
+                "display_price": {
+                    "with_tax": {
+                        "amount": 1999,
+                        "currency": "GBP",
+                        "formatted": "£19.99"
+                    },
+                    "without_tax": {
+                        "amount": 1999,
+                        "currency": "GBP",
+                        "formatted": "£19.99"
+                    }
+                },
+                "stock": {
+                    "level": 163,
+                    "availability": "in-stock"
+                }
+            },
+            "relationships": {
+                "files": {
+                    "data": [
+                        {
+                            "type": "file",
+                            "id": "4ae1e3f7-7d36-4908-9604-9398475fb316"
+                        },
+                        {
+                            "type": "file",
+                            "id": "e093b408-8f42-4ce0-a7b4-135823b6eb02"
+                        },
+                        {
+                            "type": "file",
+                            "id": "c7055e0a-807c-49dc-afbb-9b79efbde1bd"
+                        },
+                        {
+                            "type": "file",
+                            "id": "a089452e-b508-4903-8976-1745dbb4fea0"
+                        },
+                        {
+                            "type": "file",
+                            "id": "c9121d0f-d9ca-4e29-a6c2-8471a0d76892"
+                        },
+                        {
+                            "type": "file",
+                            "id": "954be233-c915-4e26-b5cd-e8a0a4b6b4c3"
+                        },
+                        {
+                            "type": "file",
+                            "id": "eca5397b-53db-4c0d-be96-95fb9f0e08a9"
+                        },
+                        {
+                            "type": "file",
+                            "id": "d29582a5-46d2-4464-8558-88be7eae744a"
+                        },
+                        {
+                            "type": "file",
+                            "id": "b31e3cc8-513e-4489-943f-6f451ff707ec"
+                        },
+                        {
+                            "type": "file",
+                            "id": "1355152a-f859-4268-8f03-a080e8904080"
+                        },
+                        {
+                            "type": "file",
+                            "id": "5bb888a2-7e86-4226-87b8-2074127348da"
+                        },
+                        {
+                            "type": "file",
+                            "id": "60ea2eff-7d1b-4c31-a6ea-03c4fa6a67e6"
+                        },
+                        {
+                            "type": "file",
+                            "id": "a3e7552f-1949-4b54-865c-0ff5b26e8afe"
+                        },
+                        {
+                            "type": "file",
+                            "id": "376c210e-8e83-4e15-8b52-b362fd5b96b0"
+                        },
+                        {
+                            "type": "file",
+                            "id": "b86424db-363e-49d1-b049-3cdbb619f7c8"
+                        },
+                        {
+                            "type": "file",
+                            "id": "31de1c38-9a1f-402f-b89b-5d84c78bd54c"
+                        },
+                        {
+                            "type": "file",
+                            "id": "91f44909-8bfe-420d-91bc-48597d97bd52"
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "type": "category",
+                            "id": "f9e7d0e2-379f-4fbb-b3da-8b0a32c39be7"
+                        }
+                    ]
+                },
+                "brands": {
+                    "data": [
+                        {
+                            "type": "brand",
+                            "id": "8e075b9d-3fb9-4fda-81ea-7246d9d36305"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "links": {
+        "current": "https://api.moltin.com/v2/products?page[limit]=100&page[offset]=0&filter=eq(category.id,f9e7d0e2-379f-4fbb-b3da-8b0a32c39be7)",
+        "first": "https://api.moltin.com/v2/products?page[limit]=100&page[offset]=0&filter=eq(category.id,f9e7d0e2-379f-4fbb-b3da-8b0a32c39be7)",
+        "last": null
+    },
+    "meta": {
+        "results": {
+            "total": 14
+        },
+        "page": {
+            "limit": 100,
+            "offset": 0,
+            "current": 1,
+            "total": 1
+        }
+    }
+}

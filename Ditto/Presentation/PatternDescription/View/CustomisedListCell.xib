@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="customList" rowHeight="44" id="YuA-xR-B6T" customClass="CustomisedListCell" customModule="Ditto_Patterns" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YuA-xR-B6T" id="NaV-zO-Xqo">
+                <rect key="frame" x="0.0" y="0.0" width="401" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qMx-hf-H6T">
+                        <rect key="frame" x="0.0" y="0.0" width="401" height="44"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LK9-3D-yqx">
+                                <rect key="frame" x="0.0" y="12" width="2" height="20"/>
+                                <color key="backgroundColor" name="needleGrey"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="7g5-c6-gbY">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="37"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="2" id="gey-14-MY7">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="4"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TuD-8T-tk9">
+                                <rect key="frame" x="12" y="12" width="25.5" height="20"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
+                                <color key="textColor" name="needleGrey"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LK9-3D-yqx" firstAttribute="leading" secondItem="qMx-hf-H6T" secondAttribute="leading" id="9Dy-7v-G4A"/>
+                            <constraint firstItem="TuD-8T-tk9" firstAttribute="leading" secondItem="LK9-3D-yqx" secondAttribute="trailing" constant="10" id="Nfh-n5-0rQ"/>
+                            <constraint firstItem="TuD-8T-tk9" firstAttribute="top" secondItem="LK9-3D-yqx" secondAttribute="top" id="OQm-yR-MMT"/>
+                            <constraint firstItem="TuD-8T-tk9" firstAttribute="bottom" secondItem="LK9-3D-yqx" secondAttribute="bottom" id="UvG-2B-2ga"/>
+                            <constraint firstItem="LK9-3D-yqx" firstAttribute="centerY" secondItem="qMx-hf-H6T" secondAttribute="centerY" id="o6g-me-Lem"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="X06-aq-pqN"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="X06-aq-pqN" firstAttribute="leading" secondItem="qMx-hf-H6T" secondAttribute="leading" id="Aza-rP-ZT7"/>
+                <constraint firstItem="X06-aq-pqN" firstAttribute="bottom" secondItem="qMx-hf-H6T" secondAttribute="bottom" id="W1T-4l-l1D"/>
+                <constraint firstItem="qMx-hf-H6T" firstAttribute="top" secondItem="X06-aq-pqN" secondAttribute="top" id="v8d-x8-6Yb"/>
+                <constraint firstItem="X06-aq-pqN" firstAttribute="trailing" secondItem="qMx-hf-H6T" secondAttribute="trailing" id="wAk-Zr-ggT"/>
+            </constraints>
+            <connections>
+                <outlet property="nameLabel" destination="TuD-8T-tk9" id="6Vp-6P-QPg"/>
+                <outlet property="selectionImage" destination="LK9-3D-yqx" id="69R-3z-5mh"/>
+            </connections>
+            <point key="canvasLocation" x="155.69196428571428" y="33.333333333333336"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="needleGrey">
+            <color red="0.11372549019607843" green="0.12156862745098039" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

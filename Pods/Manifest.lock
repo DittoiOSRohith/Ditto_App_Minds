@@ -1,0 +1,20 @@
+PODS:
+  - CryptoSwift (1.6.0)
+  - FastSocket (1.6)
+
+DEPENDENCIES:
+  - CryptoSwift
+  - FastSocket
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - FastSocket
+
+SPEC CHECKSUMS:
+  CryptoSwift: 562f8eceb40e80796fffc668b0cad9313284cfa6
+  FastSocket: f847d6a85b766dc40f848035e2bf255752c280f1
+
+PODFILE CHECKSUM: 81a3657bdc2443505c18861cbbb491b87d261d78
+
+COCOAPODS: 1.11.3

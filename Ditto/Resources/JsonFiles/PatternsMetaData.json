@@ -1,0 +1,2460 @@
+{
+    "patterns": [
+        {
+            "id": 1,
+            "patternName": "M7739 Girl's Dress B",
+            "description": "M7739 View B is a girls lined dress with a full gathered skirt, strap ruffle detail and back ties. Suitable for kid friendly cotton fabrics.",
+            "totalPieces": 17,
+            "status": "New",
+            "patternPDF" : "M7739_View_B",
+            "thumbnailImagePath": "m7739_b_thumbnail",
+            "descriptionImages": [
+                {
+                    "id": 1,
+                    "imagePath": "ic_pattern_desc4"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "ic_pattern_desc"
+                }
+            ],
+            "selvages": [
+                {
+                    "id": 1,
+                    "imagePath": "m7739_layout_garment",
+                    "tabCategory": "Garment",
+                    "fabricLength": "45"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "m7739_layout_lining",
+                    "tabCategory": "Lining",
+                    "fabricLength": "45"
+                }
+            ],
+            "patternPieces": [
+                {
+                    "id": 1,
+                    "parentPattern": "M7739 Girl's Dress B",
+                    "imagePath": "m7739_5_b_1",
+                    "size": "5",
+                    "view": "View B",
+                    "pieceNumber": "1",
+                    "pieceDescription": "Bodice Front",
+                    "positionInTab": "4th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7739_5_B_1_thumbnail"
+                },
+                {
+                    "id": 2,
+                    "parentPattern": "M7739 Girl's Dress B",
+                    "imagePath": "m7739_5_b_1",
+                    "size": "5",
+                    "view": "View B",
+                    "pieceNumber": "1",
+                    "pieceDescription": "Bodice Front",
+                    "positionInTab": "4th",
+                    "tabCategory": "Lining",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7739_5_B_1_thumbnail"
+                },
+                {
+                    "id": 3,
+                    "parentPattern": "M7739 Girl's Dress B",
+                    "imagePath": "m7739_5_b_2",
+                    "size": "5",
+                    "view": "View B",
+                    "pieceNumber": "2",
+                    "pieceDescription": "Bodice Side Back",
+                    "positionInTab": "8th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7739_5_B_2_thumbnail"
+                },
+                {
+                    "id": 4,
+                    "parentPattern": "M7739 Girl's Dress B",
+                    "imagePath": "m7739_5_b_2",
+                    "size": "5",
+                    "view": "View B",
+                    "pieceNumber": "2",
+                    "pieceDescription": "Bodice Side Back",
+                    "positionInTab": "8th",
+                    "tabCategory": "Lining",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7739_5_B_2_thumbnail"
+                },
+                {
+                    "id": 5,
+                    "parentPattern": "M7739 Girl's Dress B",
+                    "imagePath": "m7739_5_b_3",
+                    "size": "5",
+                    "view": "View B",
+                    "pieceNumber": "3",
+                    "pieceDescription": "Bodice Back",
+                    "positionInTab": "7th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7739_5_B_3_thumbnail"
+                },
+                {
+                    "id": 6,
+                    "parentPattern": "M7739 Girl's Dress B",
+                    "imagePath": "m7739_5_b_5",
+                    "size": "5",
+                    "view": "View B",
+                    "pieceNumber": "5",
+                    "pieceDescription": "Strap",
+                    "positionInTab": "6th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 4",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7739_5_B_5_thumbnail"
+                },
+                {
+                    "id": 7,
+                    "parentPattern": "M7739 Girl's Dress B",
+                    "imagePath": "m7739_5_b_6",
+                    "size": "5",
+                    "view": "View B",
+                    "pieceNumber": "6",
+                    "pieceDescription": "Ruffle",
+                    "positionInTab": "5th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7739_5_B_6_thumbnail"
+                },
+                {
+                    "id": 8,
+                    "parentPattern": "M7739 Girl's Dress B",
+                    "imagePath": "m7739_5_b_7",
+                    "size": "5",
+                    "view": "View B",
+                    "pieceNumber": "7",
+                    "pieceDescription": "Tie Ends",
+                    "positionInTab": "3rd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7739_5_B_7_thumbnail"
+                },
+                {
+                    "id": 9,
+                    "parentPattern": "M7739 Girl's Dress B",
+                    "imagePath": "m7739_5_b_8",
+                    "size": "5",
+                    "view": "View B",
+                    "pieceNumber": "8",
+                    "pieceDescription": "Skirt Front",
+                    "positionInTab": "2nd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7739_5_B_8_thumbnail"
+                },
+                {
+                    "id": 10,
+                    "parentPattern": "M7739 Girl's Dress B",
+                    "imagePath": "m7739_5_b_9",
+                    "size": "5",
+                    "view": "View B",
+                    "pieceNumber": "9",
+                    "pieceDescription": "Skirt Back",
+                    "positionInTab": "1st",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7739_5_B_9_thumbnail"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "patternName": "M7980 Men’s & Women’s Shirt A",
+            "description": "M7980 View A is a semi fitted, western style button up shirt for men and women. View A features a yoke, collar, collar band and patch pockets with buttoned flaps.",
+            "totalPieces": 33,
+            "patternPDF" : "M7980_View_A",
+            "status": "New",
+            "thumbnailImagePath": "m7980_a_thumbnail",
+            "descriptionImages": [
+                {
+                    "id": 1,
+                    "imagePath": "ic_pattern_desc2"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "ic_pattern_desc"
+                }
+            ],
+            "selvages": [
+                {
+                    "id": 1,
+                    "imagePath": "m7980_layout_garment_45",
+                    "tabCategory": "Garment",
+                    "fabricLength": "45"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "m7980_layout_garment_60",
+                    "tabCategory": "Garment",
+                    "fabricLength": "60"
+                },
+                {
+                    "id": 3,
+                    "imagePath": "m7980_layout_interfacing",
+                    "tabCategory": "Interfacing",
+                    "fabricLength": "45"
+                }
+            ],
+            "patternPieces": [
+                {
+                    "id": 1,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_1",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "1",
+                    "pieceDescription": "Yoke",
+                    "positionInTab": "9th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_1_thumbnail"
+                },
+                {
+                    "id": 2,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_2",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "2",
+                    "pieceDescription": "Front",
+                    "positionInTab": "2nd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_2_thumbnail"
+                },
+                {
+                    "id": 3,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_3",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "3",
+                    "pieceDescription": "Pocket",
+                    "positionInTab": "8th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_3_thumbnail"
+                },
+                {
+                    "id": 4,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_4",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "4",
+                    "pieceDescription": "Flap",
+                    "positionInTab": "10th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 4",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_4_thumbnail"
+                },
+                {
+                    "id": 5,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_4",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "4",
+                    "pieceDescription": "Flap",
+                    "positionInTab": "10th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_4_thumbnail"
+                },
+                {
+                    "id": 6,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_7",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "7",
+                    "pieceDescription": "Back",
+                    "positionInTab": "1st",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_7_thumbnail"
+                },
+                {
+                    "id": 7,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_8",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "8",
+                    "pieceDescription": "Front Band",
+                    "positionInTab": "4th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_8_thumbnail"
+                },
+                {
+                    "id": 8,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_8",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "8",
+                    "pieceDescription": "Front Band",
+                    "positionInTab": "4th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_8_thumbnail"
+                },
+                {
+                    "id": 9,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_9",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "9",
+                    "pieceDescription": "Collar",
+                    "positionInTab": "5th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_9_thumbnail"
+                },
+                {
+                    "id": 10,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_9",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "9",
+                    "pieceDescription": "Collar",
+                    "positionInTab": "5th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7980_L_A_9_thumbnail"
+                },
+                {
+                    "id": 11,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_10",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "10",
+                    "pieceDescription": "Collar",
+                    "positionInTab": "6th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_10_thumbnail"
+                },
+                {
+                    "id": 12,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_10",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "10",
+                    "pieceDescription": "Collar",
+                    "positionInTab": "6th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7980_L_A_10_thumbnail"
+                },
+                {
+                    "id": 13,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_11",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "11",
+                    "pieceDescription": "Sleeve",
+                    "positionInTab": "3rd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2 ",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_11_thumbnail"
+                },
+                {
+                    "id": 14,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_12",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "12",
+                    "pieceDescription": "Continuous Lap",
+                    "positionInTab": "11th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_12_thumbnail"
+                },
+                {
+                    "id": 15,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_13",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "13",
+                    "pieceDescription": "Cuff",
+                    "positionInTab": "7th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 4",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_13_thumbnail"
+                },
+                {
+                    "id": 16,
+                    "parentPattern": "M7980 Men’s & Women’s Shirt A",
+                    "imagePath": "m7980_l_a_13",
+                    "size": "L",
+                    "view": "View A",
+                    "pieceNumber": "13",
+                    "pieceDescription": "Cuff",
+                    "positionInTab": "7th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7980_L_A_13_thumbnail"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "patternName": "M7987 Men's Pants C",
+            "description": "M7987 View C is a men’s pant with tapered leg and fly front with hook and bar closure. View C also features side slant pockets and back patch pockets.",
+            "totalPieces": 16,
+            "status": "New",
+            "patternPDF" : "M7987_View_C",
+            "thumbnailImagePath": "m7987_c_thumbnail",
+            "descriptionImages": [
+                {
+                    "id": 1,
+                    "imagePath": "ic_pattern_desc5"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "ic_pattern_desc"
+                }
+            ],
+            "selvages": [
+                {
+                    "id": 1,
+                    "imagePath": "m7987_layout_garment_45",
+                    "tabCategory": "Garment",
+                    "fabricLength": "45"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "m7987_layout_garment_60",
+                    "tabCategory": "Garment",
+                    "fabricLength": "60"
+                },
+                {
+                    "id": 3,
+                    "imagePath": "m7987_layout_lining",
+                    "tabCategory": "Lining",
+                    "fabricLength": "45"
+                },
+                {
+                    "id": 4,
+                    "imagePath": "m7987_layout_interfacing",
+                    "tabCategory": "Interfacing",
+                    "fabricLength": "45"
+                }
+            ],
+            "patternPieces": [
+                {
+                    "id": 1,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_1",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "1",
+                    "pieceDescription": "Pocket Interfacing",
+                    "positionInTab": "1st",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_1_thumbnail"
+                },
+                {
+                    "id": 2,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_2",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "2",
+                    "pieceDescription": "Pocket Facing",
+                    "positionInTab": "7th",
+                    "tabCategory": "Lining",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7987_36_C_2_thumbnail"
+                },
+                {
+                    "id": 3,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_4_with_dots",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "4",
+                    "pieceDescription": "Front",
+                    "positionInTab": "2nd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "m7987_36_c_4_splice_l",
+                            "reference_splice":"m7987_36_c_4_splice_map_l"
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "imagePath": "m7987_36_c_4_splice_r",
+                            "reference_splice":"m7987_36_c_4_splice_map_r"
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_4_with_dots_thumbnail"
+                },
+                {
+                    "id": 4,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_5",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "5",
+                    "pieceDescription": "Side Front",
+                    "positionInTab": "9th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7987_36_C_5_thumbnail"
+                },
+                {
+                    "id": 5,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_6",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "6",
+                    "pieceDescription": "Pocket",
+                    "positionInTab": "6th",
+                    "tabCategory": "Lining",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7987_36_C_6_thumbnail"
+                },
+                {
+                    "id": 6,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_7",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "7",
+                    "pieceDescription": "Right Fly",
+                    "positionInTab": "10th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_7_thumbnail"
+                },
+                {
+                    "id": 7,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_7",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "7",
+                    "pieceDescription": "Right Fly",
+                    "positionInTab": "10th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_7_thumbnail"
+                },
+                {
+                    "id": 8,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_8",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "8",
+                    "pieceDescription": "Left Front Facing",
+                    "positionInTab": "11th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_8_thumbnail"
+                },
+                {
+                    "id": 9,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_8",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "8",
+                    "pieceDescription": "Left Front Facing",
+                    "positionInTab": "11th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_8_thumbnail"
+                },
+                {
+                    "id": 10,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_10_with_dots",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "10",
+                    "pieceDescription": "Back",
+                    "positionInTab": "1st",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "reference_splice" : "m7987_36_c_10_splice_map_l",
+                            "imagePath": "m7987_36_c_10_splice_l"
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "reference_splice" : "m7987_36_c_10_splice_map_r",
+                            "imagePath": "m7987_36_c_10_splice_r"
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_10_with_dots_thumbnail"
+                },
+                {
+                    "id": 11,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_11",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "11",
+                    "pieceDescription": "Back Pocket",
+                    "positionInTab": "8th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_11_thumbnail"
+                },
+                {
+                    "id": 12,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_12",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "12",
+                    "pieceDescription": "Carriers",
+                    "positionInTab": "3rd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_12_thumbnail"
+                },
+                {
+                    "id": 13,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_13",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "13",
+                    "pieceDescription": "Right Waistband",
+                    "positionInTab": "4th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_13_thumbnail"
+                },
+                {
+                    "id": 14,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_13",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "13",
+                    "pieceDescription": "Right Waistband",
+                    "positionInTab": "4th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_13_thumbnail"
+                },
+                {
+                    "id": 15,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_14",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "14",
+                    "pieceDescription": "Left Waistband",
+                    "positionInTab": "5th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_14_thumbnail"
+                },
+                {
+                    "id": 16,
+                    "parentPattern": "M7987 Men's Pants C",
+                    "imagePath": "m7987_36_c_14",
+                    "size": "36",
+                    "view": "View C",
+                    "pieceNumber": "14",
+                    "pieceDescription": "Left Waistband",
+                    "positionInTab": "5th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 1",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7987_36_C_14_thumbnail"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "patternName": "M7991 Woman's Dress A",
+            "description": "M7791 View A is a sleeveless, close-fitting knit dress with elasticized waist and faux wrap bodice with band and circle style skirt. Suitable for moderate knit fabric, this is a dress you can wear every day.",
+            "totalPieces": 7,
+            "patternPDF" : "M7991_View_A",
+            "status": "New",
+            "thumbnailImagePath": "m7991_a_thumbnail",
+            "descriptionImages": [
+                {
+                    "id": 1,
+                    "imagePath": "ic_pattern_desc3"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "ic_pattern_desc"
+                }
+            ],
+            "selvages": [
+                {
+                    "id": 1,
+                    "imagePath": "m7991_viewa_60in_layout",
+                    "tabCategory": "Garment",
+                    "fabricLength": "60"
+                }
+            ],
+            "patternPieces": [
+                {
+                    "id": 1,
+                    "parentPattern": "M7991 Woman's Dress A",
+                    "imagePath": "m7991_m_a_1",
+                    "size": "M",
+                    "view": "View A",
+                    "pieceNumber": "1",
+                    "pieceDescription": "Bodice Front",
+                    "positionInTab": "3rd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7991_M_A_1_thumbnail"
+                },
+                {
+                    "id": 2,
+                    "parentPattern": "M7991 Woman's Dress A",
+                    "imagePath": "m7991_m_a_2",
+                    "size": "M",
+                    "view": "View A",
+                    "pieceNumber": "2",
+                    "pieceDescription": "Bodice Back",
+                    "positionInTab": "2nd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7991_M_A_2_thumbnail"
+                },
+                {
+                    "id": 3,
+                    "parentPattern": "M7991 Woman's Dress A",
+                    "imagePath": "m7991_m_a_5",
+                    "size": "M",
+                    "view": "View A",
+                    "pieceNumber": "5",
+                    "pieceDescription": "Band",
+                    "positionInTab": "4th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7991_M_A_5_thumbnail"
+                },
+                {
+                    "id": 4,
+                    "parentPattern": "M7991 Woman's Dress A",
+                    "imagePath": "m7991_m_a_8_dots",
+                    "size": "M",
+                    "view": "View A",
+                    "pieceNumber": "8",
+                    "pieceDescription": "Skirt Front and Back",
+                    "positionInTab": "1st",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2 on fold",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Top-to-Bottom",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "m7991_m_a_8_dots_bottom",
+                            "reference_splice" : "m7991_m_a_8_dots_bottom"
+                            
+                        },
+                        {
+                            "id": 2,
+                            "row":1,
+                            "column":0,
+                            "reference_splice" : "m7991_m_a_8_dots_top"
+                            ,"imagePath": "m7991_m_a_8_dots_top"
+                        }
+                    ],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "M7991_M_A_8_Dots_thumbnail"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "patternName": "M7991 Woman's Dress B",
+            "description": "M7791 View B is a long sleeve, close-fitting knit dress with elasticized waist and faux wrap bodice with band and above the knee pencil skirt. Suitable for moderate knit fabric, this is a dress you can wear every day.",
+            "totalPieces": 9,
+            "patternPDF" : "M7991_View_B",
+            "status": "New",
+            "thumbnailImagePath": "m7991_b_thumbnail",
+            "descriptionImages": [
+                {
+                    "id": 1,
+                    "imagePath": "ic_pattern_desc"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "ic_pattern_desc"
+                }
+            ],
+            "selvages": [
+                {
+                    "id": 1,
+                    "imagePath": "m7991_viewb_60in_layout",
+                    "tabCategory": "Garment",
+                    "fabricLength": "60"
+                }
+            ],
+            "patternPieces": [
+                {
+                    "id": 1,
+                    "parentPattern": "M7991 Woman's Dress B",
+                    "imagePath": "m7991_m_b_1",
+                    "size": "M",
+                    "view": "View B",
+                    "pieceNumber": "1",
+                    "pieceDescription": "Bodice Front",
+                    "positionInTab": "4th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7991_M_B_1_thumbnail"
+                },
+                {
+                    "id": 2,
+                    "parentPattern": "M7991 Woman's Dress B",
+                    "imagePath": "m7991_m_b_2",
+                    "size": "M",
+                    "view": "View B",
+                    "pieceNumber": "2",
+                    "pieceDescription": "Bodice Back",
+                    "positionInTab": "3rd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7991_M_B_2_thumbnail."
+                },
+                {
+                    "id": 3,
+                    "parentPattern": "M7991 Woman's Dress B",
+                    "imagePath": "m7991_m_b_5",
+                    "size": "M",
+                    "view": "View B",
+                    "pieceNumber": "5",
+                    "pieceDescription": "Band",
+                    "positionInTab": "5th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7991_M_B_5_thumbnail."
+                },
+                {
+                    "id": 4,
+                    "parentPattern": "M7991 Woman's Dress B",
+                    "imagePath": "m7991_m_b_6",
+                    "size": "M",
+                    "view": "View B",
+                    "pieceNumber": "6",
+                    "pieceDescription": "Sleeve",
+                    "positionInTab": "2nd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7991_M_B_6_thumbnail."
+                },
+                {
+                    "id": 5,
+                    "parentPattern": "M7991 Woman's Dress B",
+                    "imagePath": "m7991_m_b_9",
+                    "size": "M",
+                    "view": "View B",
+                    "pieceNumber": "9",
+                    "pieceDescription": "Skirt Front and Back",
+                    "positionInTab": "1st",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "M7991_M_B_9_thumbnail."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "patternName": "Mid-Neck Princess Seams Women's Dress",
+            "description": "Mid-Neck Princess Dress is a fitted woven dress with A-line silhouette with princess seam details and square neckline.",
+            "totalPieces": 15,
+            "patternPDF" : "Mid-Neck_View_A",
+            "status": "New",
+            "thumbnailImagePath": "mid-Neck_a_thumbnail",
+            "descriptionImages": [
+                {
+                    "id": 1,
+                    "imagePath": "ic_pattern_desc6"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "ic_pattern_desc"
+                }
+            ],
+            "selvages": [
+                {
+                    "id": 1,
+                    "imagePath": "Mid-Neck_layout_garment_45",
+                    "tabCategory": "Garment",
+                    "fabricLength": "45"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "Mid-Neck_layout_garment_60",
+                    "tabCategory": "Garment",
+                    "fabricLength": "60"
+                },
+                {
+                    "id": 3,
+                    "imagePath": "Mid-Neck_layout_interfacing",
+                    "tabCategory": "Interfacing",
+                    "fabricLength": "45"
+                }
+            ],
+            "patternPieces": [
+                {
+                    "id": 1,
+                    "parentPattern": "Mid-Neck Princess Seams Women's Dress",
+                    "imagePath": "mid-Neck_12_a_1_with_dots",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "1",
+                    "pieceDescription": "Center Front",
+                    "positionInTab": "1st",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "mid-Neck_12_a_1_splice_l",
+                            "reference_splice":"mid-Neck_12_a_1_splice_l"
+                            
+                            
+                            
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "imagePath": "mid-Neck_12_a_1_splice_r",
+                            "reference_splice":"mid-Neck_12_a_1_splice_r"
+                            
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Mid-Neck_12_A_1_with_dots_thumbnail"
+                },
+                {
+                    "id": 2,
+                    "parentPattern": "Mid-Neck Princess Seams Women's Dress",
+                    "imagePath": "mid-Neck_12_a_2_with_dots",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "2",
+                    "pieceDescription": "Side Front",
+                    "positionInTab": "2nd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "mid-Neck_12_a_2_splice_l",
+                            "reference_splice":"mid-Neck_12_a_2_splice_l"
+                            
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "imagePath": "mid-Neck_12_a_2_splice_r",
+                            "reference_splice": "mid-Neck_12_a_2_splice_r"
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Mid-Neck_12_A_2_with_dots_thumbnail"
+                },
+                {
+                    "id": 3,
+                    "parentPattern": "Mid-Neck Princess Seams Women's Dress",
+                    "imagePath": "mid-Neck_12_a_3_with_dots",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "3",
+                    "pieceDescription": "Side Back",
+                    "positionInTab": "3rd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "mid-Neck_12_a_3_splice_l",
+                            "reference_splice": "mid-Neck_12_a_3_splice_l"
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "imagePath": "mid-Neck_12_a_3_splice_r",
+                            "reference_splice": "mid-Neck_12_a_3_splice_r"
+                            
+                            
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Mid-Neck_12_A_3_with_dots_thumbnail"
+                },
+                {
+                    "id": 4,
+                    "parentPattern": "Mid-Neck Princess Seams Women's Dress",
+                    "imagePath": "mid-Neck_12_a_4_with_dots",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "4",
+                    "pieceDescription": "Center Back",
+                    "positionInTab": "4th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "mid-Neck_12_a_4_splice_l",
+                            "reference_splice": "mid-Neck_12_a_4_splice_l"
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "imagePath": "mid-Neck_12_a_4_splice_r",
+                            "reference_splice": "mid-Neck_12_a_4_splice_r"
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Mid-Neck_12_A_4_with_dots_thumbnail"
+                },
+                {
+                    "id": 5,
+                    "parentPattern": "Mid-Neck Princess Seams Women's Dress",
+                    "imagePath": "mid-Neck_12_a_5",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "5",
+                    "pieceDescription": "Front Neck Facing",
+                    "positionInTab": "5th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Mid-Neck_12_A_5_thumbnail"
+                },
+                {
+                    "id": 6,
+                    "parentPattern": "Mid-Neck Princess Seams Women's Dress",
+                    "imagePath": "mid-Neck_12_a_5",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "5",
+                    "pieceDescription": "Front Neck Facing",
+                    "positionInTab": "9th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Mid-Neck_12_A_5_thumbnail"
+                },
+                {
+                    "id": 7,
+                    "parentPattern": "Mid-Neck Princess Seams Women's Dress",
+                    "imagePath": "mid-Neck_12_a_6",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "6",
+                    "pieceDescription": "Sleeve",
+                    "positionInTab": "6th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Mid-Neck_12_A_6_thumbnail"
+                },
+                {
+                    "id": 8,
+                    "parentPattern": "Mid-Neck Princess Seams Women's Dress",
+                    "imagePath": "mid-Neck_12_a_7",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "7",
+                    "pieceDescription": "Back Neck Facing",
+                    "positionInTab": "7th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Mid-Neck_12_A_7_thumbnail"
+                },
+                {
+                    "id": 9,
+                    "parentPattern": "Mid-Neck Princess Seams Women's Dress",
+                    "imagePath": "mid-Neck_12_a_7",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "7",
+                    "pieceDescription": "Back Neck Facing",
+                    "positionInTab": "7th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Mid-Neck_12_A_7_thumbnail"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "patternName": "Women's Pant",
+            "description": "Women’s 12 Pant is a semi-fitted, tapered leg pant for woven fabric with a natural waistline and decorative waistband.",
+            "totalPieces": 8,
+            "patternPDF" : "Womens_Pant_View_A",
+            "status": "New",
+            "thumbnailImagePath": "womens_Pant_a_thumbnail",
+            "descriptionImages": [
+                {
+                    "id": 1,
+                    "imagePath": "ic_pattern_desc7"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "ic_pattern_desc"
+                }
+            ],
+            "selvages": [
+                {
+                    "id": 1,
+                    "imagePath": "Womens_Pant_layout_garment_45",
+                    "tabCategory": "Garment",
+                    "fabricLength": "45"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "Womens_Pant_layout_garment_60",
+                    "tabCategory": "Garment",
+                    "fabricLength": "60"
+                },
+                {
+                    "id": 3,
+                    "imagePath": "Womens_Pant_layout_interfacing",
+                    "tabCategory": "Interfacing",
+                    "fabricLength": "45"
+                }
+            ],
+            "patternPieces": [
+                {
+                    "id": 1,
+                    "parentPattern": "Women's Pant",
+                    "imagePath": "womens_Pant_12_a_1_with_dots",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "1",
+                    "pieceDescription": "Pants Front",
+                    "positionInTab": "1st",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "womens_Pant_12_a_1_splice_l",
+                            "reference_splice":"womens_Pant_12_a_1_splice_l"
+                            
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "imagePath": "womens_Pant_12_a_1_splice_r",
+                            "reference_splice":"womens_Pant_12_a_1_splice_r"
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Womens_Pant_12_A_1_with_dots_thumbnail"
+                },
+                {
+                    "id": 2,
+                    "parentPattern": "Women's Pant",
+                    "imagePath": "womens_Pant_12_a_2_with_dots",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "2",
+                    "pieceDescription": "Pants Back",
+                    "positionInTab": "2nd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "womens_Pant_12_a_2_splice_l",
+                            "reference_splice":"womens_Pant_12_a_2_splice_l"
+                            
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "imagePath": "womens_Pant_12_a_2_splice_r",
+                            "reference_splice":"womens_Pant_12_a_2_splice_r"
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Womens_Pant_12_A_2_with_dots_thumbnail"
+                },
+                {
+                    "id": 3,
+                    "parentPattern": "Women's Pant",
+                    "imagePath": "womens_Pant_12_a_3_with_dots",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "3",
+                    "pieceDescription": "Waistband",
+                    "positionInTab": "3rd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "womens_Pant_12_a_3_splice_l",
+                            "reference_splice":"womens_Pant_12_a_3_splice_l"
+                            
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "imagePath": "womens_Pant_12_a_3_splice_r",
+                            "reference_splice":"womens_Pant_12_a_3_splice_r"
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Womens_Pant_12_A_3_with_dots_thumbnail"
+                },
+                {
+                    "id": 4,
+                    "parentPattern": "Women's Pant",
+                    "imagePath": "womens_Pant_12_a_3_with_dots",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "4",
+                    "pieceDescription": "Waistband",
+                    "positionInTab": "3rd",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 2",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "womens_Pant_12_a_3_splice_l",
+                            "reference_splice":"womens_Pant_12_a_3_splice_l"
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "imagePath": "womens_Pant_12_a_3_splice_r",
+                            "reference_splice":"womens_Pant_12_a_3_splice_r"
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Womens_Pant_12_A_3_with_dots_thumbnail"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "patternName": "Boat Neck Jumpsuit",
+            "description": "Boat Neck Jumpsuit is a sleeveless woven jumpsuit with princess seam bodice, boat neckline and keyhole closure in the back.",
+            "totalPieces": 17,
+            "patternPDF" : "Boat_Neck_View_C",
+            "status": "New",
+            "thumbnailImagePath": "boat_Neck_c_thumbnail",
+            "descriptionImages": [
+                {
+                    "id": 1,
+                    "imagePath": "ic_pattern_desc8"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "ic_pattern_desc"
+                }
+            ],
+            "selvages": [
+                {
+                    "id": 1,
+                    "imagePath": "Boat_Neck_layout_garment_45",
+                    "tabCategory": "Garment",
+                    "fabricLength": "45"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "Boat_Neck_layout_garment_60",
+                    "tabCategory": "Garment",
+                    "fabricLength": "60"
+                },
+                {
+                    "id": 3,
+                    "imagePath": "Boat_Neck_layout_interfacing",
+                    "tabCategory": "Interfacing",
+                    "fabricLength": "45"
+                }
+            ],
+            "patternPieces": [
+                {
+                    "id": 1,
+                    "parentPattern": "Boat Neck Jumpsuit",
+                    "imagePath": "boat_Neck_12_c_1",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "1",
+                    "pieceDescription": "Upper Center Front",
+                    "positionInTab": "3rd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Сut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Boat_Neck_12_C_1_thumbnail"
+                },
+                {
+                    "id": 2,
+                    "parentPattern": "Boat Neck Jumpsuit",
+                    "imagePath": "boat_Neck_12_c_2",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "2",
+                    "pieceDescription": "Upper Side Front",
+                    "positionInTab": "7th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Сut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Boat_Neck_12_C_2_thumbnail"
+                },
+                {
+                    "id": 3,
+                    "parentPattern": "Boat Neck Jumpsuit",
+                    "imagePath": "boat_Neck_12_c_3",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "3",
+                    "pieceDescription": "Upper Center Back",
+                    "positionInTab": "4th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Сut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Boat_Neck_12_C_3_thumbnail"
+                },
+                {
+                    "id": 4,
+                    "parentPattern": "Boat Neck Jumpsuit",
+                    "imagePath": "boat_Neck_12_c_4",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "4",
+                    "pieceDescription": "Upper Side Back",
+                    "positionInTab": "8th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Сut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Boat_Neck_12_C_4_thumbnail"
+                },
+                {
+                    "id": 5,
+                    "parentPattern": "Boat Neck Jumpsuit",
+                    "imagePath": "boat_Neck_12_c_5",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "5",
+                    "pieceDescription": "Front Facing",
+                    "positionInTab": "9th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Сut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Boat_Neck_12_C_5_thumbnail"
+                },
+                {
+                    "id": 6,
+                    "parentPattern": "Boat Neck Jumpsuit",
+                    "imagePath": "boat_Neck_12_c_5",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "5",
+                    "pieceDescription": "Front Facing",
+                    "positionInTab": "10th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Сut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Boat_Neck_12_C_5_thumbnail"
+                },
+                {
+                    "id": 7,
+                    "parentPattern": "Boat Neck Jumpsuit",
+                    "imagePath": "boat_Neck_12_c_6",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "6",
+                    "pieceDescription": "Back Facing",
+                    "positionInTab": "5th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Сut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Boat_Neck_12_C_6_thumbnail"
+                },
+                {
+                    "id": 8,
+                    "parentPattern": "Boat Neck Jumpsuit",
+                    "imagePath": "boat_Neck_12_c_6",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "6",
+                    "pieceDescription": "Back Facing",
+                    "positionInTab": "6th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Сut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Boat_Neck_12_C_6_thumbnail"
+                },
+                {
+                    "id": 9,
+                    "parentPattern": "Boat Neck Jumpsuit",
+                    "imagePath": "boat_Neck_12_c_7",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "7",
+                    "pieceDescription": "Pants Front",
+                    "positionInTab": "2nd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Сut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Boat_Neck_12_C_7_thumbnail"
+                },
+                {
+                    "id": 10,
+                    "parentPattern": "Boat Neck Jumpsuit",
+                    "imagePath": "boat_Neck_12_c_8",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "8",
+                    "pieceDescription": "Pants Back",
+                    "positionInTab": "1st",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Сut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Boat_Neck_12_C_8_thumbnail"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "patternName": "Knit Surplice Empire Dress",
+            "description": "Knit Surplice Empire Dress is a fitted knit dress with full length A-line skirt, empire waist seam, wrap style neckline and short flutter sleeve.",
+            "totalPieces": 13,
+            "patternPDF" : "Knit_Surplice_View_A",
+            "status": "New",
+            "thumbnailImagePath": "knit_Surplice_a_thumbnail",
+            "descriptionImages": [
+                {
+                    "id": 1,
+                    "imagePath": "ic_pattern_desc9"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "ic_pattern_desc"
+                }
+            ],
+            "selvages": [
+                {
+                    "id": 1,
+                    "imagePath": "Knit_Surplice_layout_garment_45",
+                    "tabCategory": "Garment",
+                    "fabricLength": "45"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "Knit_Surplice_layout_garment_60",
+                    "tabCategory": "Garment",
+                    "fabricLength": "60"
+                }
+            ],
+            "patternPieces": [
+                {
+                    "id": 1,
+                    "parentPattern": "Knit Surplice Empire Dress",
+                    "imagePath": "knit_Surplice_12_a_1",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "1",
+                    "pieceDescription": "Upper Front",
+                    "positionInTab": "4th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 4",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Knit_Surplice_12_A_1_thumbnail"
+                },
+                {
+                    "id": 2,
+                    "parentPattern": "Knit Surplice Empire Dress",
+                    "imagePath": "knit_Surplice_12_a_2",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "2",
+                    "pieceDescription": "Upper Back",
+                    "positionInTab": "5th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 4",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Knit_Surplice_12_A_2_thumbnail"
+                },
+                {
+                    "id": 3,
+                    "parentPattern": "Knit Surplice Empire Dress",
+                    "imagePath": "knit_Surplice_12_a_3_with_dots",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "3",
+                    "pieceDescription": "Skirt Front",
+                    "positionInTab": "1st",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "knit_Surplice_12_a_3_splice_l",
+                            "reference_splice":"knit_Surplice_12_a_3_splice_l"
+                            
+                            
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "imagePath": "knit_Surplice_12_a_3_splice_r",
+                            "reference_splice":"knit_Surplice_12_a_3_splice_r"
+                        }
+                    ],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Knit_Surplice_12_A_3_with_dots_thumbnail"
+                },
+                {
+                    "id": 4,
+                    "parentPattern": "Knit Surplice Empire Dress",
+                    "imagePath": "knit_Surplice_12_a_4_with_dots",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "4",
+                    "pieceDescription": "Skirt Back",
+                    "positionInTab": "2nd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "knit_Surplice_12_a_4_splice_l",
+                            "reference_splice":"knit_Surplice_12_a_4_splice_l"
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "imagePath": "knit_Surplice_12_a_4_splice_r",
+                            "reference_splice":"knit_Surplice_12_a_4_splice_r"
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Knit_Surplice_12_A_4_with_dots_thumbnail"
+                },
+                {
+                    "id": 5,
+                    "parentPattern": "Knit Surplice Empire Dress",
+                    "imagePath": "knit_Surplice_12_a_5_with_dots",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "5",
+                    "pieceDescription": "Sleeve",
+                    "positionInTab": "3rd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Top-to-Bottom",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "knit_Surplice_12_a_5_dots_bottom",
+                            "reference_splice":"knit_Surplice_12_a_5_dots_bottom"
+                        },
+                        {
+                            "id": 2,
+                            "row":1,
+                            "column":0,
+                            "imagePath": "knit_Surplice_12_a_5_dots_top",
+                            "reference_splice":"knit_Surplice_12_a_5_dots_top"
+                            
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Knit_Surplice_12_A_5_with_dots_thumbnail"
+                },
+            ]
+        },
+        {
+            "id": 10,
+            "patternName": "Knit Tunic Short Sleeve",
+            "description": "Knit Tunic Short Sleeve is a fitted knit tunic-length top with short fitted sleeves, décolleté neckline and decorative curved hemline.",
+            "totalPieces": 11,
+            "patternPDF" : "Knit_Tunic_View_A",
+            "status": "New",
+            "thumbnailImagePath": "knit_Tunic_a_thumbnail",
+            "descriptionImages": [
+                {
+                    "id": 1,
+                    "imagePath": "ic_pattern_desc10"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "ic_pattern_desc"
+                }
+            ],
+            "selvages": [
+                {
+                    "id": 1,
+                    "imagePath": "Knit_Tunic_layout_garment_45",
+                    "tabCategory": "Garment",
+                    "fabricLength": "45"
+                },
+                {
+                    "id": 2,
+                    "imagePath": "Knit_Tunic_layout_garment_60",
+                    "tabCategory": "Garment",
+                    "fabricLength": "60"
+                },
+                {
+                    "id": 3,
+                    "imagePath": "Knit_Tunic_layout_interfacing",
+                    "tabCategory": "Interfacing",
+                    "fabricLength": "45"
+                }
+            ],
+            "patternPieces": [
+                {
+                    "id": 1,
+                    "parentPattern": "Knit Tunic Short Sleeve",
+                    "imagePath": "knit_Tunic_12_a_1_with_dots",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "1",
+                    "pieceDescription": "Front",
+                    "positionInTab": "1st",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Top-to-Bottom",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "imagePath": "knit_Tunic_12_a_1_dots_bottom",
+                            "reference_splice":"knit_Tunic_12_a_1_dots_bottom"
+                        },
+                        {
+                            "id": 2,
+                            "row":1,
+                            "column":0,
+                            "imagePath": "knit_Tunic_12_a_1_dots_top",
+                            "reference_splice":"knit_Tunic_12_a_1_dots_top"
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Knit_Tunic_12_A_1_with_dots_thumbnail"
+                },
+                {
+                    "id": 2,
+                    "parentPattern": "Knit Tunic Short Sleeve",
+                    "imagePath": "knit_Tunic_12_a_2",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "2",
+                    "pieceDescription": "Back",
+                    "positionInTab": "2nd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Knit_Tunic_12_A_2_thumbnail"
+                },
+                {
+                    "id": 3,
+                    "parentPattern": "Knit Tunic Short Sleeve",
+                    "imagePath": "knit_Tunic_12_a_3",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "3",
+                    "pieceDescription": "Front Neck Facing",
+                    "positionInTab": "4th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Knit_Tunic_12_A_3_thumbnail"
+                },
+                {
+                    "id": 4,
+                    "parentPattern": "Knit Tunic Short Sleeve",
+                    "imagePath": "knit_Tunic_12_a_3",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "3",
+                    "pieceDescription": "Front Neck Facing",
+                    "positionInTab": "5th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Knit_Tunic_12_A_3_thumbnail"
+                },
+                {
+                    "id": 5,
+                    "parentPattern": "Knit Tunic Short Sleeve",
+                    "imagePath": "knit_Tunic_12_a_4",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "4",
+                    "pieceDescription": "Back Neck Facing",
+                    "positionInTab": "6th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Knit_Tunic_12_A_4_thumbnail"
+                },
+                {
+                    "id": 6,
+                    "parentPattern": "Knit Tunic Short Sleeve",
+                    "imagePath": "knit_Tunic_12_a_4",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "4",
+                    "pieceDescription": "Back Neck Facing",
+                    "positionInTab": "7th",
+                    "tabCategory": "Interfacing",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Knit_Tunic_12_A_4_thumbnail"
+                },
+                {
+                    "id": 7,
+                    "parentPattern": "Knit Tunic Short Sleeve",
+                    "imagePath": "knit_Tunic_12_a_5",
+                    "size": "12",
+                    "view": "View A",
+                    "pieceNumber": "5",
+                    "pieceDescription": "Sleeve",
+                    "positionInTab": "3rd",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 2",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Knit_Tunic_12_A_5_thumbnail"
+                },
+            ]
+        },
+        {
+            "id": 11,
+            "patternName": "Z Multidirection dress test",
+            "description": "Z New Splicing Multidirection dress test",
+            "totalPieces": 6,
+            "completedPieces": 0,
+            "selectedTab": "Garment",
+            "status": "New",
+            "thumbnailImagePath": "ic_main_MMDT",
+            "descriptionImages": [{
+                "id": 1,
+                "imagePath": "ic_main_MMDT"
+            },
+            {
+                "id": 2,
+                "imagePath": "ic_main_MMDT"
+            }
+            ],
+            "selvages": [{
+                "id": 1,
+                "imagePath": "layout 45_combined",
+                "tabCategory": "Garment",
+                "fabricLength": "45"
+            }
+            ],
+            "patternPieces": [
+                {
+                    "id": 1,
+                    "parentPattern": "Z Multidirection dress test",
+                    "imagePath": "Women's Dress Pattern Front 1 spliced R",
+                    "size": "5",
+                    "view": "View A",
+                    "pieceNumber": "1",
+                    "pieceDescription": "Women's Dress Pattern Front",
+                    "positionInTab": "1st",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Top-to-Bottom",
+                    "spliceScreenQuantity": "6",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "reference_splice":"Women's Dress Pattern Front 1 spliced map 00R",
+                            "imagePath": "Women's Dress Pattern Front 1 spliced 00"
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "reference_splice":"Women's Dress Pattern Front 1 spliced map 01R",
+                            "imagePath": "Women's Dress Pattern Front 1 spliced 01"
+                        },
+                        {
+                            "id": 3,
+                            "row":1,
+                            "column":0,
+                            "reference_splice":"Women's Dress Pattern Front 1 spliced map 10R",
+                            "imagePath": "Women's Dress Pattern Front 1 spliced 10"
+                        },
+                        {
+                            "id": 4,
+                            "row":1,
+                            "column":1,
+                            "reference_splice":"Women's Dress Pattern Front 1 spliced map 11R",
+                            "imagePath": "Women's Dress Pattern Front 1 spliced 11"
+                        },
+                        {
+                            "id": 5,
+                            "row":2,
+                            "column":0,
+                            "reference_splice":"Women's Dress Pattern Front 1 spliced map 20R",
+                            "imagePath": "Women's Dress Pattern Front 1 spliced 02"
+                        },
+                        
+                        {
+                            "id": 6,
+                            "row":2,
+                            "column":1,
+                            "reference_splice":"Women's Dress Pattern Front 1 spliced map 21R",
+                            "imagePath": "Women's Dress Pattern Front 1 12"
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Women's Dress Pattern Front 1"
+                },
+                {
+                    "id": 2,
+                    "parentPattern": "Z Multidirection dress test",
+                    "imagePath": "Women's Dress Pattern Back 2 spliced",
+                    "size": "5",
+                    "view": "View A",
+                    "pieceNumber": "2",
+                    "pieceDescription": "Women's Dress Pattern Back",
+                    "positionInTab": "2st",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Cut 1 on fold",
+                    "splice": "YES",
+                    "spliceDirection": "Splice Left-to-Right",
+                    "spliceScreenQuantity": "2",
+                    "splicedImages": [
+                        {
+                            "id": 1,
+                            "row":0,
+                            "column":0,
+                            "reference_splice":"Women's Dress Pattern Back 2 spliced map L",
+                            "imagePath": "Women's Dress Pattern Back 2 spliced L"
+                        },
+                        {
+                            "id": 2,
+                            "row":0,
+                            "column":1,
+                            "reference_splice":"Women's Dress Pattern Back 2 spliced map R",
+                            "imagePath": "Women's Dress Pattern Back 2 spliced R"
+                        }
+                    ],
+                    "cutOnFold": "NO",
+                    "mirrorOption": "NO",
+                    "thumbnailImagePath": "Women's Dress Pattern Back 2"
+                },
+                {
+                    "id": 3,
+                    "parentPattern": "Z Multidirection dress test",
+                    "imagePath": "ic_Women's Dress Pattern Front Neck Facing 3",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "3",
+                    "pieceDescription": "Women's Dress Pattern Front Neck Facing",
+                    "positionInTab": "3th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Сut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Women's Dress Pattern Front Neck Facing 3"
+                },
+                {
+                    "id": 4,
+                    "parentPattern": "Z Multidirection dress test",
+                    "imagePath": "ic_Women's Dress Pattern Front Armhole facing 4",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "4",
+                    "pieceDescription": "Women's Dress Pattern Front Armhole facing",
+                    "positionInTab": "4th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Сut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Women's Dress Pattern Front Armhole facing 4"
+                },
+                {
+                    "id": 5,
+                    "parentPattern": "Z Multidirection dress test",
+                    "imagePath": "ic_Women's Dress Pattern Back Neck Facing 5",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "5",
+                    "pieceDescription": "Women's Dress Pattern Front",
+                    "positionInTab": "5th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Сut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Women's Dress Pattern Front 5"
+                },
+                {
+                    "id": 6,
+                    "parentPattern": "Z Multidirection dress test",
+                    "imagePath": "ic_Women's Dress Pattern Back Armhole facing 6",
+                    "size": "12",
+                    "view": "View C",
+                    "pieceNumber": "6",
+                    "pieceDescription": "Women's Dress Pattern Front",
+                    "positionInTab": "6th",
+                    "tabCategory": "Garment",
+                    "cutQuantity": "Сut 1 on fold",
+                    "splice": "NO",
+                    "spliceDirection": "NA",
+                    "spliceScreenQuantity": "NA",
+                    "splicedImages": [],
+                    "cutOnFold": "YES",
+                    "mirrorOption": "YES",
+                    "thumbnailImagePath": "Women's Dress Pattern Front 6"
+                }
+            ],
+            "workspaceItems": []
+        }
+        
+    ]
+}

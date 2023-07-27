@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6B8CED17-1CBB-4D10-99E6-41A0E511492D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33902E8D-4B05-42CC-842A-BD1528C8927F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ditto/Presentation/CustomerSupport/ViewController/CustomerSupportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6588E2E6-E076-468B-8BE0-A0AE9ECD2520"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ditto/Presentation/Splash/ViewController/SplashViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "setRootViewController()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6588E2E6-E076-468B-8BE0-A0AE9ECD2520 - f8fc2c0509a61dc9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DittoDev.SplashViewController.setRootViewController() -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Splash/ViewController/SplashViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2284">
+               </Location>
+               <Location
+                  uuid = "6588E2E6-E076-468B-8BE0-A0AE9ECD2520 - f8fc2c0509a61dc9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DittoDev.SplashViewController.setRootViewController() -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Splash/ViewController/SplashViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2376">
+               </Location>
+               <Location
+                  uuid = "6588E2E6-E076-468B-8BE0-A0AE9ECD2520 - f8fc2c0509a61dc9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DittoDev.SplashViewController.setRootViewController() -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Splash/ViewController/SplashViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2388">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B51F79A-B343-4A2A-B479-0F13A5F31FC0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ditto/Presentation/Splash/ViewController/SplashViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "setRootViewController()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1B51F79A-B343-4A2A-B479-0F13A5F31FC0 - f8fc2c0509a61bff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DittoDev.SplashViewController.setRootViewController() -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Splash/ViewController/SplashViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "960">
+               </Location>
+               <Location
+                  uuid = "1B51F79A-B343-4A2A-B479-0F13A5F31FC0 - f8fc2c0509a61bff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DittoDev.SplashViewController.setRootViewController() -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Splash/ViewController/SplashViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07C5F3A8-6079-4B83-A47A-0E9AF3E1EDC0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ditto/Presentation/Splash/ViewController/SplashViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "setRootViewController()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90023F18-BEB2-44B1-AE7C-3BA175C0194C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ditto/Presentation/Dashboard/ViewController/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "setofflinepatternsfromMylibrary(networkStatus:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "90023F18-BEB2-44B1-AE7C-3BA175C0194C - 264bdb26e8cc8b12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in DittoDev.HomeViewController.setpatterns(network: Swift.Bool) -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Dashboard/ViewController/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "216"
+                  endingLineNumber = "216"
+                  offsetFromSymbolStart = "680">
+               </Location>
+               <Location
+                  uuid = "90023F18-BEB2-44B1-AE7C-3BA175C0194C - 3d71852c22a33efd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DittoDev.HomeViewController.setofflinepatternsfromMylibrary(networkStatus: Swift.Bool) -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Dashboard/ViewController/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "210"
+                  endingLineNumber = "210"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14489B17-C5D3-40EF-AA27-1C2A19FE3FDA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ditto/Presentation/Dashboard/ViewController/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
+            landmarkName = "setOfflineFlow()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "14489B17-C5D3-40EF-AA27-1C2A19FE3FDA - 24d99c7f774b0733"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DittoDev.HomeViewController.viewWillDisappear(Swift.Bool) -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Dashboard/ViewController/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "312"
+                  endingLineNumber = "312"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "14489B17-C5D3-40EF-AA27-1C2A19FE3FDA - 74766f0d9f97109e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DittoDev.HomeViewController.setOfflineFlow() -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Dashboard/ViewController/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "306"
+                  endingLineNumber = "306"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEE54C55-681E-4914-B6D6-A5A4DE68C301"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ditto/Presentation/Dashboard/ViewController/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "364"
+            endingLineNumber = "364"
+            landmarkName = "setnavgationforUniversalLinking(product:data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EEE54C55-681E-4914-B6D6-A5A4DE68C301 - 5039b303c1af6c60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DittoDev.HomeViewController.goToPatternInstructions() -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Dashboard/ViewController/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "362"
+                  endingLineNumber = "362"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "EEE54C55-681E-4914-B6D6-A5A4DE68C301 - fc1540129722b8a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DittoDev.HomeViewController.setnavgationforUniversalLinking(product: DittoDev.MyLibraryPatterns, data: DittoDev.MyLibraryData) -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Dashboard/ViewController/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "357"
+                  endingLineNumber = "357"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CCBE10C-FA8F-4D69-8A5C-17ECDBE62A6F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ditto/Presentation/Dashboard/ViewController/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3CCBE10C-FA8F-4D69-8A5C-17ECDBE62A6F - 53a6cb0d8a7c3c1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in DittoDev.HomeViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Dashboard/ViewController/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1464">
+               </Location>
+               <Location
+                  uuid = "3CCBE10C-FA8F-4D69-8A5C-17ECDBE62A6F - c6462f75f7a61428"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 @Swift.MainActor () -&gt; () in DittoDev.HomeViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "DittoDev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kunerohith/Desktop/Ditto-iOSApp_DevNew/Ditto/Presentation/Dashboard/ViewController/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,11 @@
+framework module FabricTraceTransformFrx {
+  umbrella header "FabricTraceTransformFrx.h"
+
+  export *
+  module * { export * }
+}
+
+module FabricTraceTransformFrx.Swift {
+  header "FabricTraceTransformFrx-Swift.h"
+  requires objc
+}

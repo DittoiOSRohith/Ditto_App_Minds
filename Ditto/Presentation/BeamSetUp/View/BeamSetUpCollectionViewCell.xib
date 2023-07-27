@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="beamsetupCell" id="gTV-IL-0wX" customClass="BeamSetUpCollectionViewCell" customModule="Ditto_Patterns" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RW8-Ip-My8" customClass="BeamSetupView" customModule="Ditto_Patterns" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SsX-iH-1Pj" customClass="WorkDetailView" customModule="Ditto_Patterns" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="RW8-Ip-My8" secondAttribute="trailing" id="022-vZ-FBU"/>
+                <constraint firstItem="RW8-Ip-My8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="55Z-s0-EXE"/>
+                <constraint firstAttribute="bottom" secondItem="SsX-iH-1Pj" secondAttribute="bottom" id="H1W-kk-pqA"/>
+                <constraint firstItem="SsX-iH-1Pj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="PFi-av-of5"/>
+                <constraint firstAttribute="bottom" secondItem="RW8-Ip-My8" secondAttribute="bottom" id="PKl-7m-CgE"/>
+                <constraint firstItem="RW8-Ip-My8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="h1h-kI-luh"/>
+                <constraint firstAttribute="trailing" secondItem="SsX-iH-1Pj" secondAttribute="trailing" id="pEQ-rH-NcQ"/>
+                <constraint firstItem="SsX-iH-1Pj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="pY0-7c-rNj"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="beamSetUpView" destination="RW8-Ip-My8" id="7qa-4l-y44"/>
+                <outlet property="workSpaceHowToView" destination="SsX-iH-1Pj" id="ZOA-mx-WlX"/>
+            </connections>
+            <point key="canvasLocation" x="270" y="-77"/>
+        </collectionViewCell>
+    </objects>
+</document>

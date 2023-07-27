@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>905752789748-as2o0bp6qjivo9qnk2a76ubnndrecu19.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.905752789748-as2o0bp6qjivo9qnk2a76ubnndrecu19</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>905752789748-8toeb9t2cijml5jpst323enbktp57pj7.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCqZHjK5bY41byPlbPsl0WUhC7W0ObwWjE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>905752789748</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jodito.ditto</string>
+	<key>PROJECT_ID</key>
+	<string>newcojoditto</string>
+	<key>STORAGE_BUCKET</key>
+	<string>newcojoditto.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:905752789748:ios:fd39e8470a1d02257b14a1</string>
+</dict>
+</plist>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNextLTPro-Medium.otf">
+            <string>AvenirNextLTPro-Medium</string>
+        </array>
+        <array key="AvenirNextLTPro-Regular.ttf">
+            <string>AvenirNextLTPro-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--About App And Policy View Controller-->
+        <scene sceneID="nge-7c-z2N">
+            <objects>
+                <viewController storyboardIdentifier="AboutAppAndPolicyViewController" id="D5x-Vc-o5O" customClass="AboutAppAndPolicyViewController" customModule="Ditto_Patterns" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YN4-o1-WIE">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ugr-jd-BzG">
+                                <rect key="frame" x="0.0" y="48" width="896" height="332"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="aboutCell" id="bIC-cr-Vaa" customClass="AboutCell" customModule="Ditto_Patterns" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="896" height="210"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bIC-cr-Vaa" id="JTN-g5-2M2">
+                                            <rect key="frame" x="0.0" y="0.0" width="896" height="210"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbg-Jw-aNV">
+                                                    <rect key="frame" x="20" y="30" width="856" height="180"/>
+                                                    <string key="text">At JOANN, your trust and satisfaction is a priority. We know that your privacy is important, and that is why we take care to safeguard the confidentiality and security of your information. This Privacy Policy is intended to inform you of our policies and practices regarding our use and disclosure of the information that you submit to us, and the information that we collect from you through our web site, our mobile applications, and in our retail stores. Whenever we use the words “we” or “us” or “JOANN,” we are referring to Jo-Ann Stores LLC, (doing business as JOANN), and to the affiliates and parent companies of Jo-Ann Stores, LLC, including Joann.com, LLC, which is a wholly owned subsidiary of Jo-Ann Stores, LLC. Whenever we use the words “our web site,” we are referring to https://www.joann.com and to our mobile application(s) (“app”). This Privacy Policy is divided into the following sections: Definitions Consent How We Collect Personal Information How We Use Personal Information Our Disclosure of Your Personal Information Advertising Social Network Widgets; External Ad Blocking Mobile Applications How You Can Stop Receiving Communications Information From Children Under 13 Links to Other Web Sites Security Your California Privacy Rights Questions about this Privacy Policy How to Access or Correct Personal Information or Opt Out of Marketing and Advertising Revisions to the Privacy Policy</string>
+                                                    <fontDescription key="fontDescription" name="AvenirNextLTPro-Regular" family="Avenir Next LT Pro" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" name="AvenirNextLTPro-Regular" family="Avenir Next LT Pro" pointSize="20"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rbg-Jw-aNV" firstAttribute="leading" secondItem="JTN-g5-2M2" secondAttribute="leading" constant="20" id="L1x-Tf-MIL">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                                                </constraint>
+                                                <constraint firstItem="rbg-Jw-aNV" firstAttribute="top" secondItem="JTN-g5-2M2" secondAttribute="top" constant="30" id="Zhs-1e-Feo"/>
+                                                <constraint firstAttribute="bottom" secondItem="rbg-Jw-aNV" secondAttribute="bottom" id="bPQ-HZ-OYN"/>
+                                                <constraint firstAttribute="trailing" secondItem="rbg-Jw-aNV" secondAttribute="trailing" constant="20" id="nFC-q9-noy">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                                                </constraint>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="aboutLabel" destination="rbg-Jw-aNV" id="JHY-N1-MqB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="D5x-Vc-o5O" id="szx-pm-9F0"/>
+                                    <outlet property="delegate" destination="D5x-Vc-o5O" id="Hmd-5Z-1Uv"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dJH-NZ-a5y"/>
+                        <color key="backgroundColor" name="bgScissorGreyLight"/>
+                        <constraints>
+                            <constraint firstItem="dJH-NZ-a5y" firstAttribute="trailing" secondItem="ugr-jd-BzG" secondAttribute="trailing" id="2Cp-Dp-KKs"/>
+                            <constraint firstItem="ugr-jd-BzG" firstAttribute="leading" secondItem="dJH-NZ-a5y" secondAttribute="leading" id="J81-KB-EmN"/>
+                            <constraint firstItem="ugr-jd-BzG" firstAttribute="top" secondItem="dJH-NZ-a5y" secondAttribute="top" id="JN1-DX-rZp"/>
+                            <constraint firstItem="ugr-jd-BzG" firstAttribute="bottom" secondItem="dJH-NZ-a5y" secondAttribute="bottom" id="OvF-s3-E6j"/>
+                            <constraint firstItem="ugr-jd-BzG" firstAttribute="top" secondItem="dJH-NZ-a5y" secondAttribute="top" id="QVJ-Gw-zdz"/>
+                            <constraint firstItem="ugr-jd-BzG" firstAttribute="leading" secondItem="dJH-NZ-a5y" secondAttribute="leading" id="azU-Cd-0e8"/>
+                            <constraint firstItem="dJH-NZ-a5y" firstAttribute="bottom" secondItem="ugr-jd-BzG" secondAttribute="bottom" id="cwt-Bu-4tU"/>
+                            <constraint firstItem="ugr-jd-BzG" firstAttribute="trailing" secondItem="dJH-NZ-a5y" secondAttribute="trailing" id="q5e-qq-SM5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="z1t-5G-xQE">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="ML7-M2-tUc">
+                            <rect key="frame" x="298" y="0.0" width="300" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About the App &amp; Policies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ge6-PC-hf1">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="44"/>
+                                    <color key="backgroundColor" name="bgScissorGreyLight"/>
+                                    <fontDescription key="fontDescription" name="AvenirNextLTPro-Medium" family="Avenir Next LT Pro" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" name="AvenirNextLTPro-Medium" family="Avenir Next LT Pro" pointSize="24"/>
+                                    </variation>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" name="bgScissorGreyLight"/>
+                            <constraints>
+                                <constraint firstItem="ge6-PC-hf1" firstAttribute="leading" secondItem="ML7-M2-tUc" secondAttribute="leading" id="PJV-oG-uBk"/>
+                                <constraint firstAttribute="trailing" secondItem="ge6-PC-hf1" secondAttribute="trailing" id="jMj-yM-N6h"/>
+                                <constraint firstAttribute="bottom" secondItem="ge6-PC-hf1" secondAttribute="bottom" id="jcW-qw-46s"/>
+                                <constraint firstItem="ge6-PC-hf1" firstAttribute="top" secondItem="ML7-M2-tUc" secondAttribute="top" id="kGX-ph-Nr9"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="ugr-jd-BzG" id="wXx-bT-ETt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zOg-Cj-wA5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="429.91071428571428" y="76.811594202898561"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="bgScissorGreyLight">
+            <color red="0.94509803921568625" green="0.93725490196078431" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_Ditto_DittoQA {
+  umbrella header "Pods-Ditto-DittoQA-umbrella.h"
+
+  export *
+  module * { export * }
+}

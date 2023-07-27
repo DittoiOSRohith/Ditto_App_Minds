@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Ditto
+
+  Created by Kune Rohith on 14/07/23.
+  Copyright © 2023 Infosys. All rights reserved.
+*/
+//Rohith
+// string localization for English language class
+
+"title" = "Welcome back, ";

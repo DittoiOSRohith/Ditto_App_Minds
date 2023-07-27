@@ -1,0 +1,95 @@
+{
+    "data": [
+        {
+            "id": "07d1160d-52cd-4d5f-9ff4-b68b58aad06a",
+            "type": "category",
+            "status": "draft",
+            "name": "Set-top boxes",
+            "slug": "set-top-boxes",
+            "description": "",
+            "meta": {
+                "timestamps": {
+                    "created_at": "2017-09-21T15:31:51+00:00",
+                    "updated_at": "2017-09-21T15:31:51+00:00"
+                }
+            },
+            "relationships": {}
+        },
+        {
+            "id": "ad40774f-ff6f-4d57-aba0-b18216d6c79b",
+            "type": "category",
+            "status": "draft",
+            "name": "Tablet Accessory Bundles",
+            "slug": "tablet-accessory-bundles",
+            "description": "",
+            "meta": {
+                "timestamps": {
+                    "created_at": "2017-09-21T15:31:49+00:00",
+                    "updated_at": "2017-09-21T15:31:49+00:00"
+                }
+            },
+            "relationships": {}
+        },
+        {
+            "id": "60e255b6-6c36-40da-95f7-1217b34213d7",
+            "type": "category",
+            "status": "draft",
+            "name": "Household Battery & Charger Sets",
+            "slug": "household-battery-charger-sets",
+            "description": "",
+            "meta": {
+                "timestamps": {
+                    "created_at": "2017-09-21T15:31:47+00:00",
+                    "updated_at": "2017-09-21T15:31:47+00:00"
+                }
+            },
+            "relationships": {}
+        },
+        {
+            "id": "cae28ae1-c3e5-4826-a41a-0c087aab8aab",
+            "type": "category",
+            "status": "draft",
+            "name": "VJ Equipment",
+            "slug": "vj-equipment",
+            "description": "",
+            "meta": {
+                "timestamps": {
+                    "created_at": "2017-09-21T15:31:45+00:00",
+                    "updated_at": "2017-09-21T15:31:45+00:00"
+                }
+            },
+            "relationships": {}
+        },
+        {
+            "id": "1b5e383b-60be-47f7-b0d8-ce853a8e14fd",
+            "type": "category",
+            "status": "draft",
+            "name": "Rear Racks",
+            "slug": "rear-racks",
+            "description": "",
+            "meta": {
+                "timestamps": {
+                    "created_at": "2017-09-21T15:31:43+00:00",
+                    "updated_at": "2017-09-21T15:31:43+00:00"
+                }
+            },
+            "relationships": {}
+        }
+    ],
+    "links": {
+        "current": "https://api.moltin.com/v2/categories?page[limit]=100&page[offset]=0",
+        "first": "https://api.moltin.com/v2/categories?page[limit]=100&page[offset]=0",
+        "last": null
+    },
+    "meta": {
+        "results": {
+            "total": 49
+        },
+        "page": {
+            "limit": 100,
+            "offset": 0,
+            "current": 1,
+            "total": 1
+        }
+    }
+}
